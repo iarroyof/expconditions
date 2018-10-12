@@ -1,11 +1,27 @@
+import os
 import sh
+from io import StringIO
 import re
 from string import punctuation
 
+from sklearn.metrics import classification_report
+from sklearn.metrics import f1_score
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import SGDClassifier
+from sklearn.linear_model import PassiveAggressiveClassifier
+from sklearn.kernel_approximation import RBFSampler
+from sklearn.decomposition import (NMF, TruncatedSVD, dict_learning)
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import GridSearchCV
+from sklearn.svm import SVC
+import pandas as pd
 
 from pdb import set_trace as st
 
+# Hold xml tag syntax items
 punctuation = re.sub('[/|<|>]+', '', punctuation)
+
 
 def build_search_tags(tag_file, return_regexs=True):
     tag_list = []
@@ -24,7 +40,7 @@ def build_search_tags(tag_file, return_regexs=True):
                                     for id, tag in enumerate(tag_list)}
 
 
-def build_window_dataset(lines, tagsregexs, winsize=5):
+def build_window_dataset(lines, tagsregexs, winsize=5, lists=True):
 
     samples = []
     for line in lines:
@@ -47,12 +63,30 @@ def build_window_dataset(lines, tagsregexs, winsize=5):
                 #sample = re.sub('<(.*)>', '', sample)
                 if sample != '':
                      samples.append({"text": sample, "label": tag})
+    if lists:
+        x = []; y = []
+        for d in samples:
+             x.append(d['text'])
+             y.append(d['label'])
+        return x, y
+    else:
+        return samples
 
-    return samples
 
-inxml = "/home/iarroyof/Dropbox/ES_Carlos_Ignacio/xhGCs/paquete-Nacho/ejemplos-etiquetado-xml/GSE54899_family.xml"
-tag_dict_f = "/home/iarroyof/Dropbox/ES_Carlos_Ignacio/xhGCs/paquete-Nacho/ejemplos-etiquetado-xml/esquema-gcs.xsd"
-# r'<title[^>]*>([^<]+)</title>'
+# Input files
+#inxml = "/home/iarroyof/Dropbox/ES_Carlos_Ignacio/xhGCs/paquete-Nacho/ejemplos-etiquetado-xml/GSE54899_family.xml"
+#inxml = "/home/iarroyof/Dropbox/ES_Carlos_Ignacio/xhGCs/paquete-Nacho/ejemplos-etiquetado-xml/"
+inxml = "/home/iarroyof/data/expConditions/"
+#tag_dict_f = "/home/iarroyof/Dropbox/ES_Carlos_Ignacio/xhGCs/paquete-Nacho/ejemplos-etiquetado-xml/esquema-gcs.xsd"
+tag_dict_f = "/home/iarroyof/data/expConditions/esquema-gcs.xsd"
+
+# Output results
+results = "results.csv"
+stats = "stats.csv"
+estimator = "estimators.csv"
+# Input params
+grid = True
+
 name_regex = """<xs:element name=\"(.*)\">"""
 sample_str = "!Sample_growth_protocol_ch1"
 sample_regex = "/^" + sample_str + "/p"
@@ -60,15 +94,96 @@ sample_regex = "/^" + sample_str + "/p"
 # Get the tag dictionary from the XSD schema
 tag_regexps = build_search_tags(tag_dict_f)
 
-lines = sh.sed("-n", sample_regex, inxml)
+# Get lines containing tagged text.
+if os.path.isdir(inxml):  
+    from itertools import filterfalse as filt
+    lines = []
+    for file in os.listdir(inxml):
+        if file.endswith(".xml"):
+            #lines = sh.sed("-n", sample_regex, os.path.join(inxml, file))
+            buf = StringIO()
+            sh.sed("-n", sample_regex, os.path.join(inxml, file), _out=buf)            
+            lines.append(buf.getvalue())
 
-data = build_window_dataset(lines=lines, tagsregexs=tag_regexps, winsize=5)
+    lines = re.sub("\r", '', ' '.join(lines)).split("\n")
+    #lines = filt(None, " ".join(lines).split("\n"))
 
-samples = []
-labels = []
-for d in data:
-    samples.append(d['text'])
-    labels.append(d['label'])
+elif os.path.isfile(inxml):  
+    buf = StringIO()
+    sh.sed("-n", sample_regex, inxml, _out=buf)
+    lines = re.sub("\r", '', buf.getvalue()).split("\n")
 
-print(samples)
-print(labels)
+else:
+    print("Path does not exist: %s \nEXIT...\n" % inxml)
+
+while True: # Remove empty lines
+    try:
+        lines.remove('')
+    except ValueError:
+        break
+
+# Building dictionary of text samples to be classified. Untagged samples are simply ignored
+X_test, y_test = build_window_dataset(lines=lines, tagsregexs=tag_regexps, winsize=5)
+
+# Split data into train and test
+if grid:
+    X_train, X_test, y_train, y_test = train_test_split(X_test, y_test, 
+                                                     test_size=0.33, random_state=42)
+
+# Create a set of classifiers and their available parameters for model selection
+    text_clfs = [
+        Pipeline([('tfidf', TfidfVectorizer(binary=True, analyzer='char', ngram_range=(1, 5), 
+										lowercase=True)),
+		  ('gauss', RBFSampler(random_state=1)),
+                  ('clf', PassiveAggressiveClassifier())
+                ]),
+        Pipeline([('tfidf', TfidfVectorizer(binary=True, analyzer='char', ngram_range=(1, 5), 
+										lowercase=True)), 
+                  ('deco', TruncatedSVD()),
+                  ('clf', PassiveAggressiveClassifier())
+                ]),
+            ]
+
+    parameters = [{
+#parameters =  {
+                #'tfidf__ngram_range': [(1, 1), (1, 2)],#, (1,5), (1,4), (2, 4), (2, 5)],
+                'tfidf__sublinear_tf': (True, False),
+                #'tfidf__stop_words': (None, 'english'),
+                #'tfidf__analyzer': ('word', 'char'),
+                'tfidf__binary': (True, False),
+	        'gauss__gamma': (2.0, 1.0, 0.1, 0.001, 0.0001, 0.00001),
+                'clf__C': (0.001, 0.01, 0.1, 1.0, 5.0, 10.0, 50.0, 100.0, 200.0, 300.0, 500.0)
+
+            },
+            {
+                #'tfidf__ngram_range': [(1, 1), (1, 2), (1,5), (1,4), (2, 4), (2, 5)],
+                'tfidf__sublinear_tf': (True, False),
+                #'tfidf__stop_words': (None, 'english'),
+                #'tfidf__analyzer': ('word', 'char'),
+                'tfidf__binary': (True, False),
+                'deco__n_components': (50, 100, 200, 300),
+                'clf__C': (0.001, 0.01, 0.1, 1.0, 5.0, 10.0, 50.0, 100.0, 200.0, 300.0, 500.0)
+             }
+        ]
+
+    performances=[]
+    for text_clf, param in zip(text_clfs, parameters):
+        gs_clf = GridSearchCV(text_clf, param, n_jobs=-1, scoring='f1_macro')
+        gs_clf = gs_clf.fit(X_train, y_train)
+        predicted = gs_clf.predict(X_test)
+        performances.append((gs_clf, predicted, f1_score(y_test, predicted, average='macro')))
+
+    clf = sorted(performances, key=lambda x: x[2], reverse=True)[0]
+    gs_clf = clf[0]
+    predicted = clf[1]
+# Save performance statistics and best estimator params
+    pd.DataFrame(list(gs_clf.cv_results_.items())).to_csv(stats)
+    pd.DataFrame(list(gs_clf.best_params_.items())).to_csv(estimator)
+
+else:
+    predicted = gs_clf.predict(X_test)
+
+# imprimir evaluacion de predicciones con el conjunto dev
+print("F1_macro: %f\n" % clf[2] if grid else gs_clf)
+print(classification_report(y_test, predicted))
+
