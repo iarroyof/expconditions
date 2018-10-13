@@ -3,6 +3,13 @@ import sh
 from io import StringIO
 import re
 from string import punctuation
+import warnings
+
+
+#warnings.filterwarnings("ignore", category=DeprecationWarning, append=True)
+#warnings.filterwarnings("ignore", category=FutureWarning, append=True)
+#warnings.filterwarnings("ignore", category=UndefinedMetricWarning, append=True)
+warnings.filterwarnings("ignore", category=Warning, append=True)
 
 from sklearn.metrics import classification_report
 from sklearn.metrics import f1_score
@@ -18,7 +25,6 @@ from sklearn.svm import SVC
 import pandas as pd
 
 from pdb import set_trace as st
-
 # Hold xml tag syntax items
 punctuation = re.sub('[/|<|>]+', '', punctuation)
 
@@ -73,13 +79,46 @@ def build_window_dataset(lines, tagsregexs, winsize=5, lists=True):
         return samples
 
 
+def parse_xml(inxml, name_regex = """<xs:element name=\"(.*)\">""",
+                     sample_str = "!Sample_growth_protocol_ch1"):
+
+    sample_regex = "/^" + sample_str + "/p"
+    if os.path.isdir(inxml):  
+        from itertools import filterfalse as filt
+        lines = []
+        for file in os.listdir(inxml):
+            if file.endswith(".xml"):
+            #lines = sh.sed("-n", sample_regex, os.path.join(inxml, file))
+                buf = StringIO()
+                sh.sed("-n", sample_regex, os.path.join(inxml, file), _out=buf)            
+                lines.append(buf.getvalue())
+
+        lines = re.sub("\r", '', ' '.join(lines)).split("\n")
+    #lines = filt(None, " ".join(lines).split("\n"))
+
+    elif os.path.isfile(inxml):  
+        buf = StringIO()
+        sh.sed("-n", sample_regex, inxml, _out=buf)
+        lines = re.sub("\r", '', buf.getvalue()).split("\n")
+
+    else:
+        print("Path does not exist: %s \nEXIT...\n" % inxml)
+
+    while True: # Remove empty lines
+        try:
+            lines.remove('')
+        except ValueError:
+            break
+
+    return lines
+
 # Input files
 #inxml = "/home/iarroyof/Dropbox/ES_Carlos_Ignacio/xhGCs/paquete-Nacho/ejemplos-etiquetado-xml/GSE54899_family.xml"
 #inxml = "/home/iarroyof/Dropbox/ES_Carlos_Ignacio/xhGCs/paquete-Nacho/ejemplos-etiquetado-xml/"
 inxml = "/home/iarroyof/data/expConditions/"
 #tag_dict_f = "/home/iarroyof/Dropbox/ES_Carlos_Ignacio/xhGCs/paquete-Nacho/ejemplos-etiquetado-xml/esquema-gcs.xsd"
 tag_dict_f = "/home/iarroyof/data/expConditions/esquema-gcs.xsd"
-
+stdout = False
 # Output results
 results = "results.csv"
 stats = "stats.csv"
@@ -89,38 +128,12 @@ grid = True
 
 name_regex = """<xs:element name=\"(.*)\">"""
 sample_str = "!Sample_growth_protocol_ch1"
-sample_regex = "/^" + sample_str + "/p"
 
 # Get the tag dictionary from the XSD schema
 tag_regexps = build_search_tags(tag_dict_f)
 
 # Get lines containing tagged text.
-if os.path.isdir(inxml):  
-    from itertools import filterfalse as filt
-    lines = []
-    for file in os.listdir(inxml):
-        if file.endswith(".xml"):
-            #lines = sh.sed("-n", sample_regex, os.path.join(inxml, file))
-            buf = StringIO()
-            sh.sed("-n", sample_regex, os.path.join(inxml, file), _out=buf)            
-            lines.append(buf.getvalue())
-
-    lines = re.sub("\r", '', ' '.join(lines)).split("\n")
-    #lines = filt(None, " ".join(lines).split("\n"))
-
-elif os.path.isfile(inxml):  
-    buf = StringIO()
-    sh.sed("-n", sample_regex, inxml, _out=buf)
-    lines = re.sub("\r", '', buf.getvalue()).split("\n")
-
-else:
-    print("Path does not exist: %s \nEXIT...\n" % inxml)
-
-while True: # Remove empty lines
-    try:
-        lines.remove('')
-    except ValueError:
-        break
+lines = parse_xml(inxml, name_regex=name_regex, sample_str=sample_str)
 
 # Building dictionary of text samples to be classified. Untagged samples are simply ignored
 X_test, y_test = build_window_dataset(lines=lines, tagsregexs=tag_regexps, winsize=5)
@@ -132,47 +145,88 @@ if grid:
 
 # Create a set of classifiers and their available parameters for model selection
     text_clfs = [
-        Pipeline([('tfidf', TfidfVectorizer(binary=True, analyzer='char', ngram_range=(1, 5), 
+        Pipeline([('tfidf', TfidfVectorizer(binary=False, analyzer='char', ngram_range=(1, 4), 
 										lowercase=True)),
 		  ('gauss', RBFSampler(random_state=1)),
-                  ('clf', PassiveAggressiveClassifier())
+                  ('clf_PA', PassiveAggressiveClassifier())
                 ]),
-        Pipeline([('tfidf', TfidfVectorizer(binary=True, analyzer='char', ngram_range=(1, 5), 
+#        Pipeline([('tfidf', TfidfVectorizer(binary=True, analyzer='char', ngram_range=(1, 5),
+#                                                                                lowercase=True)),
+#                  ('clf_PA', PassiveAggressiveClassifier())
+#                ]),
+     
+        Pipeline([('tfidf', TfidfVectorizer(binary=False, analyzer='char', ngram_range=(1, 4), 
 										lowercase=True)), 
-                  ('deco', TruncatedSVD()),
-                  ('clf', PassiveAggressiveClassifier())
+                  ('deco_SVD', TruncatedSVD()),
+                  ('clf_PA', PassiveAggressiveClassifier())
+                ]),
+ #       Pipeline([('tfidf', TfidfVectorizer(binary=True, analyzer='char', ngram_range=(1, 5),
+ #                                                                               lowercase=True)),
+ #                 ('clf_SVM', SVC())
+ #               ]),
+        Pipeline([('tfidf', TfidfVectorizer(binary=False, analyzer='char', ngram_range=(1, 4),
+                                                                                lowercase=True)),
+                  ('deco_SVD', TruncatedSVD()),
+                  ('clf_SVM', SVC())
                 ]),
             ]
 
-    parameters = [{
-#parameters =  {
-                #'tfidf__ngram_range': [(1, 1), (1, 2)],#, (1,5), (1,4), (2, 4), (2, 5)],
-                'tfidf__sublinear_tf': (True, False),
-                #'tfidf__stop_words': (None, 'english'),
-                #'tfidf__analyzer': ('word', 'char'),
-                'tfidf__binary': (True, False),
-	        'gauss__gamma': (2.0, 1.0, 0.1, 0.001, 0.0001, 0.00001),
-                'clf__C': (0.001, 0.01, 0.1, 1.0, 5.0, 10.0, 50.0, 100.0, 200.0, 300.0, 500.0)
+    parameters = [
+             {
+                #'tfidf__ngram_range': [(1, 1), (1, 2), (1,5), (1,4), (2, 4), (2, 5)],
+                #'tfidf__sublinear_tf': (True, False),
+               #'tfidf__stop_words': (None, 'english'),
+               #'tfidf__analyzer': ('word', 'char'),
+                #'tfidf__binary': (True, False),
+	        'gauss__gamma': (10.0, 1.0, 0.1, 0.01, 0.001, 0.0001, 0.00001),
+                'clf_PA__C': (10.0, 50.0, 100.0, 200.0, 300.0, 500.0, 1000.0)
 
             },
+#              {
+#                'tfidf__ngram_range': [(1, 1), (1, 2), (1,5), (1,4), (2, 4), (2, 5)],
+#                'tfidf__sublinear_tf': (True, False),
+                #'tfidf__stop_words': (None, 'english'),
+#                'tfidf__analyzer': ('word', 'char'),
+#                'tfidf__binary': (True, False),
+#                'clf_PA__C': (0.001, 0.01, 0.1, 1.0, 5.0, 10.0, 50.0, 100.0, 200.0, 300.0, 500.0)
+#
+#             },
             {
                 #'tfidf__ngram_range': [(1, 1), (1, 2), (1,5), (1,4), (2, 4), (2, 5)],
-                'tfidf__sublinear_tf': (True, False),
+                #'tfidf__sublinear_tf': (True, False),
                 #'tfidf__stop_words': (None, 'english'),
                 #'tfidf__analyzer': ('word', 'char'),
-                'tfidf__binary': (True, False),
-                'deco__n_components': (50, 100, 200, 300),
-                'clf__C': (0.001, 0.01, 0.1, 1.0, 5.0, 10.0, 50.0, 100.0, 200.0, 300.0, 500.0)
-             }
+                #'tfidf__binary': (True, False),
+                'deco_SVD__n_components': (100, 200, 300),
+                'clf_PA__C': (10.0, 50.0, 100.0, 200.0, 300.0, 500.0, 1000.0)
+             },
+ #           {
+ #               'tfidf__ngram_range': [(1, 1), (1, 2), (1,5), (1,4), (2, 4), (2, 5)],
+ #               'tfidf__sublinear_tf': (True, False),
+                #'tfidf__stop_words': (None, 'english'),
+ #               'tfidf__analyzer': ('word', 'char'),
+ #               'tfidf__binary': (True, False),
+ #               'clf_SVM__C': (0.001, 0.01, 0.1, 1.0, 5.0, 10.0, 50.0, 100.0, 200.0, 300.0, 500.0, 1000.0)
+
+#             },
+            {
+                #'tfidf__ngram_range': [(1, 1), (1, 2), (1,5), (1,4), (2, 4), (2, 5)],
+                #'tfidf__sublinear_tf': (True, False),
+                #'tfidf__stop_words': (None, 'english'),
+                #'tfidf__analyzer': ('word', 'char'),
+                #'tfidf__binary': (True, False),
+                'deco_SVD__n_components': (100, 200, 300),
+                'clf_SVM__C': (10.0, 50.0, 100.0, 200.0, 300.0, 500.0, 1000.0)
+             },
         ]
 
     performances=[]
     for text_clf, param in zip(text_clfs, parameters):
-        gs_clf = GridSearchCV(text_clf, param, n_jobs=-1, scoring='f1_macro')
+        gs_clf = GridSearchCV(text_clf, param, n_jobs=-1, scoring='f1_macro', iid=False, error_score=0.0, verbose=0)
         gs_clf = gs_clf.fit(X_train, y_train)
         predicted = gs_clf.predict(X_test)
         performances.append((gs_clf, predicted, f1_score(y_test, predicted, average='macro')))
-
+        # Add here the feature names and weights for discussion
     clf = sorted(performances, key=lambda x: x[2], reverse=True)[0]
     gs_clf = clf[0]
     predicted = clf[1]
@@ -183,7 +237,17 @@ if grid:
 else:
     predicted = gs_clf.predict(X_test)
 
-# imprimir evaluacion de predicciones con el conjunto dev
+# imprimir evaluacion de predicciones con el conjunto de test
 print("F1_macro: %f\n" % clf[2] if grid else gs_clf)
-print(classification_report(y_test, predicted))
-
+if stdout:
+    print(classification_report(y_test, predicted))
+else:
+    #pd.DataFrame(list(classification_report(y_test, predicted, 
+    #                            output_dict=True).items())).to_csv(results)
+    import csv
+    d = classification_report(y_test, predicted, output_dict=True)
+    headers = ['class'] + [list(d[header].keys()) for header in d][0]
+    R = [headers] + [[D] + list(d[D].values()) for h in headers for D in d]
+    with open(results, "w") as fo:
+        writer = csv.writer(fo)
+        writer.writerows(R)

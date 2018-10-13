@@ -1,5 +1,3 @@
 ,0,1
-0,clf__C,5.0
-1,gauss__gamma,1.0
-2,tfidf__binary,True
-3,tfidf__sublinear_tf,True
+0,clf_PA__C,300.0
+1,gauss__gamma,10.0

@@ -1,802 +1,151 @@
 ,0,1
-0,mean_fit_time,"[0.27993345 0.18135357 0.13952581 0.13364681 0.13477453 0.13161373
- 0.13247101 0.13141561 0.13256907 0.13126302 0.13060435 0.13359873
- 0.13731877 0.13004359 0.13151105 0.12938714 0.13054339 0.12951692
- 0.1305035  0.13044111 0.13164051 0.12974739 0.13270473 0.13053052
- 0.13059266 0.13427186 0.13822579 0.13313079 0.13334743 0.12997198
- 0.13254889 0.13302183 0.1336422  0.13024553 0.13629238 0.12972132
- 0.1307288  0.13662044 0.13025705 0.12976638 0.13274169 0.13604681
- 0.12978776 0.13124363 0.1301175  0.13108079 0.13200609 0.13237365
- 0.13152019 0.13610363 0.13418738 0.13204106 0.13175543 0.13716865
- 0.13170671 0.13040543 0.13550115 0.13316361 0.13112632 0.13135298
- 0.13275846 0.13399076 0.13059489 0.13053052 0.13412666 0.13433512
- 0.13105234 0.13206061 0.13292869 0.12941392 0.13006679 0.13270362
- 0.132303   0.13338335 0.13148443 0.13364299 0.1357034  0.13125626
- 0.13271769 0.13213547 0.13609481 0.13365539 0.14069907 0.13032468
- 0.13104256 0.1330208  0.13069812 0.12957064 0.12990379 0.12982726
- 0.13282148 0.13002976 0.1344436  0.13004247 0.1302189  0.13112593
- 0.13555098 0.12988249 0.13460612 0.13081185 0.13428895 0.13251996
- 0.13079548 0.13000504 0.13527862 0.13053338 0.13196715 0.1307625
- 0.13676421 0.12942179 0.1308322  0.12958821 0.1316762  0.13410918
- 0.13546069 0.13213317 0.13298424 0.13031435 0.1308039  0.12937029
- 0.13067452 0.1308105  0.13189546 0.12999312 0.12986525 0.13068398
- 0.13472629 0.13027263 0.13470888 0.13183339 0.13101093 0.13503639
- 0.14042989 0.13403749 0.13456464 0.13219023 0.13284771 0.1329174
- 0.13614774 0.13389635 0.13355724 0.13086216 0.13142625 0.13554056
- 0.13182855 0.13065982 0.13123457 0.13116177 0.13440466 0.13521441
- 0.13106974 0.13125841 0.1302669  0.1304036  0.13176171 0.13189952
- 0.13558849 0.13147275 0.12997548 0.12916128 0.13200426 0.12979317
- 0.13816468 0.1312902  0.13531264 0.13037769 0.13243858 0.13127661
- 0.13143007 0.13270291 0.13374511 0.13159974 0.13264823 0.13109883
- 0.13154189 0.13033994 0.13161723 0.13171204 0.13153974 0.13311998
- 0.13005344 0.13804134 0.13516871 0.13233225 0.13125443 0.13043944
- 0.13049245 0.13161906 0.13148634 0.13696583 0.13293568 0.13207253
- 0.13315503 0.13166205 0.13190476 0.13249469 0.13344495 0.13294419
- 0.13260563 0.13333805 0.13755997 0.13361494 0.13355064 0.12993677
- 0.13775182 0.13185414 0.13125054 0.13188465 0.13750553 0.13228695
- 0.13306793 0.13477429 0.13666892 0.14184284 0.13358418 0.13385336
- 0.13340147 0.13347499 0.13267795 0.13431803 0.13199917 0.13260627
- 0.13005781 0.13336198 0.1346182  0.13376466 0.13125889 0.13061237
- 0.13417832 0.13086605 0.13228893 0.13254921 0.13155818 0.13238152
- 0.13522267 0.12936831 0.13118299 0.13400888 0.13514551 0.13059147
- 0.13331405 0.13341117 0.13581276 0.1323332  0.13223449 0.13210479
- 0.13236435 0.13312348 0.13276037 0.13590264 0.1309104  0.13418325
- 0.13343898 0.13069741 0.13252457 0.13504171 0.1318446  0.13383953
- 0.13132127 0.1338284  0.13288498 0.13150732 0.13173493 0.12990236]"
-1,std_fit_time,"[0.00057528 0.0701047  0.00512252 0.00341638 0.00337746 0.00161984
- 0.00164456 0.00181147 0.00237187 0.00150101 0.00074679 0.00253704
- 0.00739252 0.0009891  0.00067846 0.00041916 0.00074752 0.0006434
- 0.00102261 0.0011387  0.00157673 0.0005836  0.00364698 0.00034161
- 0.00015482 0.00291014 0.01043569 0.0038752  0.00194734 0.00035112
- 0.00161475 0.00144326 0.00190579 0.00040689 0.0071113  0.00029157
- 0.00148369 0.00871336 0.00039627 0.00076239 0.00246541 0.00569817
- 0.00022769 0.00158604 0.00100071 0.00253194 0.00255161 0.00207168
- 0.00142336 0.00372943 0.00485597 0.003039   0.00086302 0.00510201
- 0.00083877 0.00065065 0.00658725 0.00150432 0.00086298 0.0015388
- 0.00388324 0.00291842 0.00050319 0.0013739  0.00304312 0.00344405
- 0.00063363 0.00286901 0.00292293 0.00091893 0.00083922 0.00316685
- 0.00146194 0.00395979 0.00176095 0.00358713 0.00523379 0.0017831
- 0.00164798 0.00070413 0.00491421 0.0026366  0.01206081 0.00040562
- 0.00151542 0.00133631 0.00127925 0.0001545  0.00074647 0.00020736
- 0.00238337 0.00068796 0.00413382 0.00107803 0.00055241 0.00133781
- 0.00477546 0.00069789 0.00490728 0.00143422 0.00585138 0.00359114
- 0.0006233  0.00034947 0.00653025 0.00043664 0.00219494 0.00055389
- 0.00871    0.00050525 0.00058959 0.00079325 0.00131914 0.00543808
- 0.00640404 0.00177871 0.00151728 0.00053555 0.00110976 0.00045544
- 0.00037903 0.00097557 0.00267363 0.00048816 0.00016882 0.00137412
- 0.00421555 0.00174372 0.00395715 0.00350481 0.0006311  0.0052788
- 0.00898907 0.00432577 0.0050169  0.00247833 0.00184936 0.00305362
- 0.00157871 0.00206691 0.00438267 0.00096862 0.00134144 0.00488624
- 0.00114409 0.00086332 0.00119045 0.00200098 0.00273251 0.00555738
- 0.00181369 0.00243555 0.00013481 0.00094578 0.0028003  0.00128847
- 0.00343431 0.00218112 0.00093251 0.00013951 0.00221719 0.00010995
- 0.00907802 0.00181689 0.00507855 0.00066714 0.00090838 0.00203916
- 0.00097636 0.0043054  0.00487849 0.00161531 0.0014092  0.00186973
- 0.00075899 0.0013729  0.00101999 0.00340092 0.00086443 0.00449075
- 0.00013534 0.00316107 0.00497694 0.00176402 0.00078966 0.00057519
- 0.00056256 0.00320539 0.00104329 0.00836306 0.00323428 0.00210191
- 0.00162618 0.0025468  0.0019423  0.0024775  0.00225809 0.00384737
- 0.00422349 0.00516551 0.00510674 0.00488197 0.00393035 0.00033678
- 0.00513734 0.0027897  0.00079179 0.00262782 0.00709384 0.00191713
- 0.00272929 0.00582367 0.0057008  0.01144333 0.00065864 0.00119514
- 0.00234551 0.00191977 0.00178454 0.00463801 0.00266617 0.00442792
- 0.00092978 0.00555261 0.00654026 0.0058675  0.00170788 0.00054376
- 0.00352335 0.00163171 0.00075579 0.00295096 0.00108914 0.00274543
- 0.0077615  0.0008988  0.00086114 0.00518055 0.00558628 0.00159585
- 0.00143764 0.00161872 0.00069755 0.00178831 0.00183121 0.00161774
- 0.00143517 0.00292552 0.00174329 0.00436567 0.0009906  0.00273245
- 0.0020427  0.00075181 0.00277218 0.00403438 0.00122818 0.00649174
- 0.00151197 0.00370021 0.00281524 0.00160732 0.00181329 0.00011529]"
-2,mean_score_time,"[0.01798669 0.01282541 0.01444379 0.01305731 0.01276271 0.01231448
- 0.01577783 0.01038869 0.01498977 0.01510406 0.01458224 0.01050528
- 0.02455886 0.01128538 0.01321793 0.01176143 0.01291211 0.0116264
- 0.0151697  0.01252437 0.01234571 0.01115131 0.01560187 0.01271375
- 0.01336575 0.01331536 0.01395981 0.01352342 0.01637586 0.01458049
- 0.01338251 0.0111986  0.01464423 0.01046181 0.01570511 0.0132401
- 0.01491555 0.010324   0.01493057 0.01078447 0.01195431 0.01323207
- 0.0159785  0.01448329 0.01387779 0.0120151  0.01374888 0.01231869
- 0.01061988 0.01388534 0.01135755 0.01420013 0.01078955 0.01448957
- 0.0133458  0.01032066 0.01627207 0.01523852 0.01408386 0.01529853
- 0.01070015 0.01382224 0.01543919 0.01038559 0.01273982 0.01388121
- 0.01311453 0.01198896 0.01150584 0.01631045 0.01320163 0.01331655
- 0.01364247 0.01410397 0.01353439 0.01071763 0.01599177 0.01375302
- 0.01673595 0.01210737 0.01519489 0.01405001 0.01226115 0.01722964
- 0.01295829 0.01269881 0.01457397 0.01295646 0.01406773 0.01194278
- 0.0138824  0.01121116 0.01445826 0.01454957 0.01587621 0.01428501
- 0.0149916  0.01188906 0.01206358 0.01134117 0.01357826 0.01372846
- 0.01694854 0.01220528 0.01272011 0.01485991 0.01834583 0.01454949
- 0.01239697 0.01157928 0.01461705 0.0131561  0.01387326 0.01164873
- 0.01130803 0.01542656 0.01452319 0.01837977 0.01553178 0.01431322
- 0.01463254 0.01413075 0.01489178 0.0136474  0.01385887 0.01337878
- 0.01292427 0.01075506 0.01515555 0.01303196 0.01564813 0.0106589
- 0.01383718 0.0127542  0.01201948 0.01253239 0.01417327 0.0120616
- 0.01418193 0.01045791 0.01367164 0.0146451  0.01428533 0.01421372
- 0.01446493 0.01920128 0.01329557 0.01370891 0.0120976  0.01096813
- 0.01389122 0.01450626 0.01546272 0.01841855 0.01425258 0.01348511
- 0.01061042 0.01766666 0.01135508 0.01071143 0.015493   0.01448107
- 0.01075808 0.0121781  0.01201463 0.01339348 0.01256243 0.01181245
- 0.01205643 0.01692287 0.01370962 0.01617877 0.0154113  0.01686454
- 0.01411351 0.01481565 0.01475279 0.01120599 0.01284774 0.01056719
- 0.01258548 0.01811004 0.0116334  0.01322039 0.01462086 0.01524965
- 0.01369143 0.01314052 0.01420577 0.01378258 0.01841625 0.01575049
- 0.01234706 0.0156877  0.01759108 0.01321514 0.0151674  0.01279958
- 0.01236502 0.01163165 0.01406399 0.015812   0.01816368 0.01281945
- 0.01552272 0.01569239 0.01285084 0.01063943 0.01391133 0.01605781
- 0.0150756  0.01041778 0.01391617 0.01471965 0.01509786 0.01248177
- 0.01184646 0.01671235 0.01583552 0.0130136  0.01149543 0.0164175
- 0.01373657 0.01197235 0.01662326 0.0111057  0.01261616 0.01310682
- 0.01857885 0.01351929 0.01557628 0.01313019 0.01375214 0.01651827
- 0.0114301  0.01622852 0.01583481 0.01191306 0.01529892 0.01623996
- 0.01499097 0.01419441 0.01349815 0.01282382 0.01581764 0.0116175
- 0.01178439 0.01314386 0.01286443 0.01624505 0.01326593 0.01220353
- 0.01412845 0.01726325 0.01243901 0.01348527 0.01442862 0.01051402
- 0.01226799 0.0127395  0.01488805 0.01245832 0.0134724  0.01168664]"
-3,std_score_time,"[3.42450554e-04 3.12774367e-03 2.31638908e-03 3.55425781e-03
- 1.45731844e-03 2.42527036e-03 3.62301317e-03 1.88750568e-04
- 1.27434119e-03 2.60820296e-03 2.99587315e-03 1.39237176e-04
- 4.37305430e-03 1.07510109e-03 2.33665909e-03 1.04097589e-03
- 9.77960004e-04 1.81008781e-03 3.57648350e-03 1.38678236e-03
- 2.38795725e-03 9.69583434e-04 1.72576980e-03 2.56437497e-03
- 3.01744988e-03 2.00434960e-03 2.12915000e-03 2.28358648e-03
- 2.69293043e-03 2.27115649e-03 2.88617130e-03 8.26791846e-04
- 4.87413732e-03 2.05867322e-04 2.94969173e-03 4.34128394e-04
- 2.91028426e-03 4.91274813e-04 2.77973315e-03 2.95321318e-04
- 1.97571814e-03 3.76329795e-03 6.71454304e-03 2.84600846e-03
- 2.43861943e-03 2.37517303e-03 4.19031687e-03 2.61506548e-03
- 1.70001642e-04 4.99896546e-03 6.52727661e-04 2.09436512e-03
- 3.84838229e-04 4.67257034e-03 2.73990677e-03 2.76572129e-04
- 3.12832883e-03 3.91063631e-03 3.09726766e-03 5.20807617e-03
- 2.84054923e-04 2.95653084e-03 3.56656745e-03 2.83859144e-04
- 1.16915059e-03 2.75773774e-03 2.07097247e-03 2.11224448e-03
- 1.32273911e-03 1.97544192e-03 1.19730295e-03 2.15644297e-03
- 2.52655152e-03 1.56002114e-03 2.36222203e-03 2.47915888e-04
- 2.17235826e-03 2.48668099e-03 4.97247064e-03 1.97015508e-03
- 2.99940764e-03 3.95543918e-03 1.23471798e-03 6.83424416e-04
- 1.74213916e-03 2.06368663e-03 1.49849715e-03 1.19808159e-03
- 7.14982890e-04 8.53860547e-04 2.67261626e-03 3.98376305e-04
- 3.14191433e-03 1.90655410e-03 2.86647559e-03 2.23474958e-03
- 2.99489108e-03 8.54598403e-04 1.54147647e-03 1.58299435e-03
- 2.77818851e-03 2.90117195e-03 4.31109290e-03 2.21306751e-03
- 3.01723376e-03 2.04089710e-03 6.32318453e-03 2.07563971e-04
- 2.00431760e-03 1.48173770e-03 4.13193765e-03 1.85825908e-03
- 3.11345823e-03 1.62932138e-03 7.61653500e-04 1.11654979e-03
- 2.94464703e-03 8.59511650e-04 3.50223997e-03 2.62647551e-03
- 2.96189514e-03 1.66062871e-04 2.81964410e-03 2.16998771e-03
- 2.19496825e-03 2.42053013e-03 2.09088334e-03 3.88116937e-04
- 3.97627343e-03 3.54544087e-03 3.32486502e-03 1.36158279e-04
- 2.30039833e-03 3.78668269e-03 1.53705756e-03 2.16137100e-03
- 3.42147927e-03 1.33260785e-03 4.00389881e-03 1.51386891e-04
- 1.68209619e-03 3.90814294e-03 3.12612860e-03 2.54644200e-03
- 2.80020148e-03 3.19139815e-03 1.78781872e-03 9.98883223e-04
- 1.51162908e-03 9.97469374e-04 2.39335619e-03 2.75839623e-03
- 3.68289199e-03 1.92634936e-03 2.31333334e-03 4.38781926e-03
- 5.17962533e-04 2.04743139e-03 1.34677822e-03 6.71390896e-04
- 3.78420179e-03 3.32718800e-03 6.29534415e-05 1.39322611e-03
- 2.07777069e-03 1.05796566e-03 1.98482204e-03 1.65248309e-03
- 1.25019456e-03 3.15352750e-03 3.81070308e-03 7.08485278e-04
- 2.56387578e-03 2.41228248e-03 2.07229476e-03 1.46070575e-03
- 3.10561007e-03 1.05155918e-03 1.77160911e-03 2.65935023e-04
- 2.31695892e-03 2.64455479e-03 5.12377484e-04 3.24847880e-03
- 2.45362501e-03 2.32282572e-03 2.89651769e-03 3.18755305e-03
- 3.03572662e-03 4.14330933e-03 3.14924790e-03 3.42784831e-03
- 1.31631990e-03 2.72911117e-03 4.96731575e-03 2.67709621e-03
- 2.26223978e-03 1.36586680e-03 2.18558756e-03 9.46835401e-04
- 2.65088820e-03 4.06811111e-03 4.98112910e-03 3.17332069e-03
- 3.68566621e-03 3.32707913e-03 2.33852485e-03 1.53243747e-04
- 4.80536254e-03 3.19365338e-03 3.08434482e-03 2.98408154e-04
- 1.61102420e-03 3.26539469e-03 3.38770895e-03 1.67505447e-03
- 1.39157044e-03 2.78882077e-03 4.53211614e-03 3.65792984e-03
- 7.97847612e-04 4.43162294e-03 3.08182700e-03 1.92414586e-03
- 7.23748831e-04 3.90712035e-04 1.25844693e-03 2.87419342e-03
- 5.59762775e-03 3.35914765e-03 2.92763801e-03 2.06919353e-03
- 3.06065410e-03 3.61318861e-03 3.01702821e-04 2.70177056e-03
- 2.70198002e-03 1.13895642e-03 2.81214350e-03 3.82035850e-03
- 3.37107203e-03 2.19206500e-03 3.07863560e-03 1.40552943e-03
- 4.10249091e-03 8.01030470e-04 6.13013696e-04 3.76838889e-03
- 2.84469896e-03 3.57654406e-03 4.83366816e-04 1.39924269e-03
- 2.45638880e-03 7.22557791e-04 8.52754457e-04 2.85484726e-03
- 2.67184549e-03 2.95945811e-04 1.81119610e-03 1.71941793e-03
- 2.16951743e-03 1.70324075e-03 1.54208555e-03 1.26613346e-03]"
-4,param_clf__C,"[0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
- 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
- 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01
- 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.1 0.1 0.1 0.1 0.1 0.1
- 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
- 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
- 1.0 1.0 1.0 1.0 1.0 1.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0
- 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 5.0 10.0 10.0 10.0 10.0 10.0
- 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0
- 10.0 10.0 10.0 10.0 10.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0
- 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0
- 50.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0
- 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0
- 100.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0
- 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0
- 200.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0
- 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0
- 300.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0
- 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0 500.0
- 500.0]"
-5,param_gauss__gamma,"[2.0 2.0 2.0 2.0 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.001 0.001 0.001 0.001
- 0.0001 0.0001 0.0001 0.0001 1e-05 1e-05 1e-05 1e-05 2.0 2.0 2.0 2.0 1.0
- 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.001 0.001 0.001 0.001 0.0001 0.0001 0.0001
- 0.0001 1e-05 1e-05 1e-05 1e-05 2.0 2.0 2.0 2.0 1.0 1.0 1.0 1.0 0.1 0.1
- 0.1 0.1 0.001 0.001 0.001 0.001 0.0001 0.0001 0.0001 0.0001 1e-05 1e-05
- 1e-05 1e-05 2.0 2.0 2.0 2.0 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.001 0.001
- 0.001 0.001 0.0001 0.0001 0.0001 0.0001 1e-05 1e-05 1e-05 1e-05 2.0 2.0
- 2.0 2.0 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.001 0.001 0.001 0.001 0.0001
- 0.0001 0.0001 0.0001 1e-05 1e-05 1e-05 1e-05 2.0 2.0 2.0 2.0 1.0 1.0 1.0
- 1.0 0.1 0.1 0.1 0.1 0.001 0.001 0.001 0.001 0.0001 0.0001 0.0001 0.0001
- 1e-05 1e-05 1e-05 1e-05 2.0 2.0 2.0 2.0 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1
- 0.001 0.001 0.001 0.001 0.0001 0.0001 0.0001 0.0001 1e-05 1e-05 1e-05
- 1e-05 2.0 2.0 2.0 2.0 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.001 0.001 0.001
- 0.001 0.0001 0.0001 0.0001 0.0001 1e-05 1e-05 1e-05 1e-05 2.0 2.0 2.0 2.0
- 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.001 0.001 0.001 0.001 0.0001 0.0001
- 0.0001 0.0001 1e-05 1e-05 1e-05 1e-05 2.0 2.0 2.0 2.0 1.0 1.0 1.0 1.0 0.1
- 0.1 0.1 0.1 0.001 0.001 0.001 0.001 0.0001 0.0001 0.0001 0.0001 1e-05
- 1e-05 1e-05 1e-05 2.0 2.0 2.0 2.0 1.0 1.0 1.0 1.0 0.1 0.1 0.1 0.1 0.001
- 0.001 0.001 0.001 0.0001 0.0001 0.0001 0.0001 1e-05 1e-05 1e-05 1e-05]"
-6,param_tfidf__binary,"[True True False False True True False False True True False False True
- True False False True True False False True True False False True True
- False False True True False False True True False False True True False
- False True True False False True True False False True True False False
- True True False False True True False False True True False False True
- True False False True True False False True True False False True True
- False False True True False False True True False False True True False
- False True True False False True True False False True True False False
- True True False False True True False False True True False False True
- True False False True True False False True True False False True True
- False False True True False False True True False False True True False
- False True True False False True True False False True True False False
- True True False False True True False False True True False False True
- True False False True True False False True True False False True True
- False False True True False False True True False False True True False
- False True True False False True True False False True True False False
- True True False False True True False False True True False False True
- True False False True True False False True True False False True True
- False False True True False False True True False False True True False
- False True True False False True True False False True True False False
- True True False False]"
-7,param_tfidf__sublinear_tf,"[True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False True False True False True False True False True
- False True False True False True False True False True False True False
- True False True False]"
-8,params,"[{'clf__C': 0.001, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.001, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.001, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.01, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.01, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 0.1, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 0.1, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 1.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 1.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 5.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 5.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 10.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 10.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 50.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 50.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 100.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 100.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 200.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 200.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 300.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 300.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 2.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 2.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 1.0, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 1.0, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 0.1, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 0.1, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 0.001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 0.001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 0.0001, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 0.0001, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 1e-05, 'tfidf__binary': True, 'tfidf__sublinear_tf': False}, {'clf__C': 500.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': True}, {'clf__C': 500.0, 'gauss__gamma': 1e-05, 'tfidf__binary': False, 'tfidf__sublinear_tf': False}]"
-9,split0_test_score,"[0.08696068 0.08696068 0.08696068 0.07721324 0.04551443 0.04551443
- 0.04551443 0.07721324 0.36743275 0.3115815  0.10713057 0.44297736
- 0.02170963 0.02857143 0.06587079 0.02635046 0.02857143 0.01154401
- 0.01018182 0.02635046 0.01018182 0.02170963 0.02170963 0.02635046
- 0.71868097 0.70475412 0.70882941 0.6858093  0.68675279 0.71125643
- 0.6958331  0.6958041  0.40152892 0.40499649 0.48454645 0.32807989
- 0.00450789 0.02635046 0.01804303 0.02857143 0.02635046 0.02857143
- 0.02857143 0.00152788 0.01018182 0.02050581 0.01678322 0.00152788
- 0.72446275 0.71223708 0.71884598 0.69889209 0.691668   0.7017011
- 0.68912773 0.67558231 0.42904701 0.54735553 0.51892199 0.56496708
- 0.09093509 0.15979484 0.01678322 0.01678322 0.11392091 0.01804303
- 0.01678322 0.02635046 0.01678322 0.02170963 0.01678322 0.01154401
- 0.75090015 0.75361698 0.75231118 0.75253216 0.74669903 0.74669903
- 0.74292994 0.75582298 0.39045224 0.6025325  0.62451473 0.55625984
- 0.02170963 0.02857143 0.02857143 0.02857143 0.02170963 0.06556072
- 0.00450789 0.00450789 0.00450789 0.02635046 0.02857143 0.01018182
- 0.75231118 0.76336521 0.76064839 0.75231118 0.74767298 0.74924058
- 0.75397547 0.74763949 0.65970224 0.40865035 0.62900013 0.52426508
- 0.02050581 0.01154401 0.05142109 0.02635046 0.02050581 0.00450789
- 0.06727273 0.01804303 0.02050581 0.02170963 0.02050581 0.02170963
- 0.74631717 0.76204016 0.76336521 0.75253216 0.75072394 0.75005568
- 0.74954121 0.75299231 0.65134547 0.62324055 0.55826759 0.48328162
- 0.00152788 0.02635046 0.13149192 0.21489853 0.02857143 0.02857143
- 0.01678322 0.01804303 0.01154401 0.00152788 0.02857143 0.02635046
- 0.75485272 0.74370184 0.75756955 0.75253216 0.74669903 0.74306884
- 0.7521991  0.73245031 0.68131714 0.69000608 0.6506113  0.58751125
- 0.01678322 0.01678322 0.02635046 0.01018182 0.01678322 0.01678322
- 0.01804303 0.02635046 0.00152788 0.02170963 0.02857143 0.00152788
- 0.75485272 0.74727379 0.75756955 0.75485272 0.77183165 0.75916767
- 0.76892077 0.73272811 0.62651896 0.49422656 0.61630055 0.63844211
- 0.12512183 0.05976632 0.16090564 0.02857143 0.01678322 0.06197827
- 0.00152788 0.00152788 0.01804303 0.02635046 0.01154401 0.01154401
- 0.75941265 0.73268928 0.75756955 0.75756955 0.75580407 0.75486828
- 0.74019018 0.73590092 0.68435648 0.6594428  0.66163794 0.5460962
- 0.02050581 0.01804303 0.31598695 0.17169568 0.02050581 0.01678322
- 0.02779865 0.02050581 0.02050581 0.00152788 0.01804303 0.02050581
- 0.75090015 0.75231118 0.75231118 0.74841507 0.74742068 0.76636298
- 0.75024787 0.74503656 0.66998386 0.48080066 0.55133826 0.50970978
- 0.01804303 0.10644052 0.25911171 0.02050581 0.09539044 0.00152788
- 0.00152788 0.02635046 0.01154401 0.01678322 0.00152788 0.00152788
- 0.75361698 0.75485272 0.74631717 0.75367344 0.74145133 0.75125864
- 0.75629655 0.75019701 0.5595742  0.65748062 0.62319326 0.59134341
- 0.02050581 0.01804303 0.22809098 0.12546912 0.01018182 0.00152788
- 0.06266773 0.06864802 0.03669009 0.00152788 0.01678322 0.02635046]"
-10,split1_test_score,"[0.07272727 0.07272727 0.09235209 0.09419199 0.07538321 0.07538321
- 0.08907625 0.08319805 0.10844272 0.20895244 0.13183057 0.23259334
- 0.07233176 0.02919708 0.02578019 0.07373737 0.02919708 0.02919708
- 0.01587302 0.01182557 0.02919708 0.02578019 0.00901578 0.01587302
- 0.74942231 0.73694791 0.74371199 0.75653704 0.65275047 0.64201419
- 0.65805589 0.67522244 0.60501895 0.53850353 0.53041939 0.55475834
- 0.02919708 0.01182557 0.05926007 0.02578019 0.02097902 0.0222068
- 0.02919708 0.00901578 0.0197861  0.01846591 0.01587302 0.02097902
- 0.7739017  0.76124857 0.76054263 0.76979574 0.72800564 0.7438206
- 0.7286477  0.62067243 0.51633426 0.53168863 0.58152353 0.38481059
- 0.02578019 0.02919708 0.02097902 0.11192444 0.02578019 0.01587302
- 0.01587302 0.01587302 0.0222068  0.02097902 0.0046225  0.01846591
- 0.78257564 0.79782674 0.77669323 0.77450721 0.77608133 0.81086225
- 0.76797296 0.78209429 0.63828166 0.65337205 0.63182988 0.43622409
- 0.31293774 0.0046225  0.00901578 0.05106406 0.01846591 0.0222068
- 0.01846591 0.01846591 0.01587302 0.0222068  0.01587302 0.02578019
- 0.79467539 0.79888962 0.80206001 0.80805401 0.86836933 0.8061417
- 0.81422925 0.79691205 0.67322078 0.61896891 0.59857587 0.67202191
- 0.02097902 0.0222068  0.00901578 0.01587302 0.0015674  0.0222068
- 0.00901578 0.0222068  0.00901578 0.02578019 0.02578019 0.02578019
- 0.7971163  0.77460883 0.80328986 0.80767923 0.80126976 0.8047138
- 0.7834004  0.78008998 0.69214119 0.58752769 0.66946139 0.5384837
- 0.01846591 0.05017261 0.43194733 0.54960952 0.02919708 0.13597263
- 0.01182557 0.01587302 0.01846591 0.0222068  0.01182557 0.01846591
- 0.77062352 0.7991342  0.80633242 0.79427665 0.75928945 0.77944833
- 0.79354505 0.80547269 0.53676824 0.61393628 0.35279468 0.61090766
- 0.06668309 0.02919708 0.02578019 0.02919708 0.0015674  0.02578019
- 0.0015674  0.02578019 0.01846591 0.01846591 0.02578019 0.0015674
- 0.80756902 0.7924543  0.80443587 0.76902806 0.7968652  0.80696912
- 0.81524927 0.80119569 0.59095282 0.672996   0.57173055 0.74852165
- 0.02097902 0.00901578 0.01846591 0.01182557 0.02578019 0.05910516
- 0.0015674  0.01846591 0.02097902 0.11172457 0.0015674  0.01846591
- 0.79782674 0.79780189 0.79716803 0.80443587 0.79945025 0.77409083
- 0.76811571 0.81118881 0.46657613 0.59202609 0.4749239  0.5460447
- 0.02919708 0.28379161 0.02919708 0.01846591 0.02919708 0.0222068
- 0.0015674  0.08621322 0.02097902 0.0015674  0.01182557 0.01846591
- 0.80107551 0.8099612  0.806905   0.79304903 0.79625724 0.80570725
- 0.76106641 0.80965982 0.64716459 0.27232582 0.60012543 0.61742555
- 0.01846591 0.01587302 0.02097902 0.00901578 0.01846591 0.0015674
- 0.0015674  0.02097902 0.0222068  0.02097902 0.02097902 0.0222068
- 0.73423058 0.79869301 0.80979021 0.78899518 0.77840532 0.80559869
- 0.76091871 0.81291826 0.53461187 0.64388301 0.35682302 0.46720652
- 0.02919708 0.11498932 0.0222068  0.06955941 0.0015674  0.01182557
- 0.0015674  0.00901578 0.07459977 0.02578019 0.02097902 0.0015674 ]"
-11,split2_test_score,"[0.0816     0.0816     0.0816     0.06008523 0.06785347 0.06785347
- 0.06785347 0.06785347 0.30631369 0.15948878 0.32061935 0.28866397
- 0.02258065 0.01196581 0.02539683 0.03206107 0.02258065 0.02539683
- 0.02945736 0.01818182 0.02539683 0.02945736 0.01967213 0.02258065
- 0.81271195 0.82315598 0.79928414 0.777941   0.80097088 0.7893491
- 0.73035656 0.77627665 0.70306933 0.61998288 0.60874712 0.57052274
- 0.01196581 0.06454829 0.02945736 0.01818182 0.02258065 0.01818182
- 0.03206107 0.02945736 0.03206107 0.01967213 0.02258065 0.01967213
- 0.8238872  0.83939037 0.83056069 0.78353295 0.82677424 0.8239284
- 0.81726237 0.82012898 0.65036071 0.73981194 0.6635472  0.68363604
- 0.02258065 0.03206107 0.01196581 0.02945736 0.02539683 0.01967213
- 0.02539683 0.12068966 0.01967213 0.00530973 0.01034483 0.02945736
- 0.86521689 0.86437633 0.84712029 0.86102792 0.85704545 0.86086729
- 0.85452834 0.86045114 0.75769597 0.71896616 0.61830374 0.72543567
- 0.02945736 0.37741876 0.31377858 0.35022552 0.01967213 0.02258065
- 0.01196581 0.03206107 0.02945736 0.03206107 0.02539683 0.01034483
- 0.8465618  0.86655012 0.8520169  0.86056171 0.8525267  0.82204081
- 0.83498907 0.84036431 0.77535209 0.78240239 0.83001748 0.78341679
- 0.01967213 0.01967213 0.01034483 0.02539683 0.03206107 0.01818182
- 0.03206107 0.01196581 0.02945736 0.01967213 0.01034483 0.00530973
- 0.86482404 0.86158052 0.85238345 0.86086729 0.84479798 0.86002674
- 0.81896795 0.83484155 0.81650877 0.79166996 0.58866467 0.55464269
- 0.23529412 0.01818182 0.23821549 0.04399206 0.03206107 0.03206107
- 0.02945736 0.01818182 0.01818182 0.02945736 0.01034483 0.01034483
- 0.86098612 0.85632411 0.8557253  0.8293225  0.85532294 0.85751166
- 0.84993116 0.84993116 0.85492717 0.70046866 0.6025565  0.72849748
- 0.02945736 0.02258065 0.01034483 0.01818182 0.02945736 0.
- 0.09872916 0.         0.02258065 0.01196581 0.03206107 0.01967213
- 0.85373794 0.85398132 0.85063655 0.86102792 0.86002674 0.84383392
- 0.86008715 0.8540429  0.76311285 0.63671484 0.72040836 0.63626884
- 0.03206107 0.01967213 0.01196581 0.12349771 0.01196581 0.0018018
- 0.03206107 0.         0.02539683 0.         0.         0.03206107
- 0.86055488 0.85063655 0.86031469 0.85553316 0.86098612 0.86437633
- 0.84963173 0.85532294 0.68718523 0.73100627 0.72413535 0.51265334
- 0.08340875 0.00530973 0.1552915  0.01818182 0.         0.02539683
- 0.01967213 0.03206107 0.01967213 0.02945736 0.02945736 0.02258065
- 0.84703165 0.86604045 0.85553316 0.83115511 0.86002674 0.84814414
- 0.82713885 0.76554116 0.78806157 0.6401993  0.76925362 0.63956406
- 0.03206107 0.         0.02945736 0.01967213 0.03206107 0.01967213
- 0.02945736 0.0018018  0.02258065 0.02945736 0.02945736 0.02945736
- 0.86757576 0.86593012 0.85398132 0.83232647 0.8549287  0.81191009
- 0.83186027 0.86045114 0.77795771 0.76841374 0.77697678 0.74436652
- 0.08605042 0.01818182 0.02258065 0.01818182 0.01967213 0.09690056
- 0.02945736 0.02539683 0.01196581 0.03206107 0.02945736 0.0018018 ]"
-12,mean_test_score,"[0.08046938 0.08046938 0.08704913 0.07741287 0.06269287 0.06269287
- 0.06728383 0.07621813 0.26099849 0.22839625 0.1838777  0.32295218
- 0.0389614  0.02345578 0.03944935 0.04406959 0.02685995 0.02190527
- 0.01827161 0.01886092 0.02143665 0.02555909 0.01680025 0.02162864
- 0.75914354 0.7535194  0.74953354 0.73906929 0.7119823  0.7130854
- 0.69423894 0.71471107 0.56645836 0.5187044  0.53975771 0.48183131
- 0.01517736 0.03373063 0.03552273 0.02430365 0.02334056 0.02310557
- 0.02990032 0.01299538 0.02041858 0.01955452 0.01833728 0.01386826
- 0.77292388 0.76944753 0.76865278 0.74980875 0.7471797  0.75502106
- 0.74347061 0.70352837 0.52928766 0.60382349 0.58629211 0.54262186
- 0.0471689  0.07504424 0.01664503 0.05274647 0.05597971 0.01783793
- 0.01924043 0.05309217 0.01952809 0.01620523 0.01064122 0.01960957
- 0.79818156 0.80395999 0.79089117 0.79469444 0.7919383  0.80482521
- 0.78711586 0.79818537 0.59131869 0.65691807 0.62497547 0.57026925
- 0.12183641 0.13241714 0.11348072 0.13926706 0.01996866 0.03724145
- 0.01157945 0.01802399 0.01631964 0.02679258 0.02329585 0.01546387
- 0.79674107 0.8083671  0.80383461 0.80571638 0.82176624 0.79166523
- 0.80015821 0.79389626 0.70132357 0.59902749 0.68326578 0.65691442
- 0.02039711 0.01772568 0.02403042 0.02253178 0.01786196 0.01482715
- 0.03644815 0.01749008 0.01952423 0.02242097 0.01901556 0.01781495
- 0.80135407 0.79817671 0.80529915 0.80576475 0.79784031 0.80364897
- 0.78315855 0.78832656 0.71799116 0.66528211 0.60529664 0.52467508
- 0.08217558 0.0317178  0.26645392 0.27230976 0.02990032 0.0656997
- 0.01918563 0.01735998 0.01599351 0.01741802 0.01711166 0.01857395
- 0.79417726 0.79840496 0.80539714 0.79115477 0.78575596 0.79196782
- 0.79740408 0.79460911 0.68852991 0.66785698 0.53534909 0.64056977
- 0.03757809 0.02280453 0.02102626 0.0191228  0.0157463  0.01441732
- 0.03839515 0.01770868 0.01395843 0.01749725 0.02875472 0.00735999
- 0.80423974 0.79664285 0.80312931 0.79365574 0.80850896 0.80234684
- 0.81369068 0.79458933 0.65840007 0.59985979 0.6347446  0.67465228
- 0.06036059 0.02989264 0.06538392 0.05339976 0.01825475 0.04171641
- 0.01133312 0.00671682 0.02138576 0.04652385 0.00449692 0.02044458
- 0.80472829 0.79234569 0.80379634 0.80469965 0.80416948 0.79643236
- 0.78465084 0.79944182 0.61224692 0.65978991 0.61907992 0.53535382
- 0.04359275 0.10305884 0.16829793 0.07108942 0.01684359 0.021364
- 0.01639774 0.04624176 0.02039711 0.01049811 0.01961903 0.02048728
- 0.79855214 0.80811285 0.80371849 0.78991452 0.79990718 0.8057814
- 0.77853399 0.77327907 0.70020057 0.46202295 0.63758086 0.58746863
- 0.02268039 0.04193988 0.10562122 0.01638611 0.0492897  0.00735999
- 0.01049811 0.01667679 0.01865844 0.02225457 0.01700638 0.01741802
- 0.78366371 0.80517385 0.80212608 0.79074001 0.79023331 0.78892851
- 0.78207952 0.80658447 0.62124044 0.68849787 0.58320378 0.59879764
- 0.04443993 0.0505914  0.09315565 0.07231687 0.01033714 0.03556645
- 0.03153164 0.03478406 0.04147126 0.01945111 0.02225457 0.01016852]"
-13,std_test_score,"[0.0059163  0.0059163  0.00435358 0.01380929 0.01280844 0.01280844
- 0.01795453 0.00625409 0.11116977 0.06348293 0.09450452 0.08983595
- 0.02370233 0.00789894 0.01913465 0.02119815 0.00295158 0.00765959
- 0.00803553 0.00600335 0.00829453 0.00316034 0.00559051 0.00436665
- 0.03892554 0.0496521  0.03708262 0.03953159 0.06272862 0.059665
- 0.02929455 0.04314335 0.12586355 0.08870738 0.05103235 0.1115273
- 0.01041009 0.02200436 0.0174879  0.00436071 0.00227413 0.0042806
- 0.00150686 0.01172428 0.00892496 0.00084445 0.00293963 0.00895237
- 0.04051165 0.05212871 0.04587578 0.03729018 0.05670197 0.05042696
- 0.05325317 0.08324978 0.09063169 0.09366008 0.05901781 0.12206047
- 0.03172129 0.0613861  0.00365048 0.04234427 0.04196046 0.00154527
- 0.00424664 0.0466463  0.00223706 0.00749232 0.00501513 0.00734299
- 0.04787347 0.0453333  0.03991987 0.04646837 0.04634443 0.04670954
- 0.04745454 0.04413102 0.15328829 0.04750208 0.00548638 0.11752947
- 0.13575713 0.16862901 0.13785987 0.14524505 0.00135206 0.02050896
- 0.00575772 0.0112296  0.01016941 0.00400244 0.00542804 0.00732697
- 0.03842588 0.04257316 0.03724502 0.04413269 0.05403926 0.03139038
- 0.03448479 0.03783692 0.05116894 0.15292443 0.1016091  0.10612264
- 0.00053493 0.00459279 0.01984322 0.004745   0.01249331 0.00764867
- 0.02419412 0.00416548 0.00830649 0.00252601 0.00634169 0.00875449
- 0.04837362 0.04387138 0.03629425 0.04415686 0.03840324 0.04480878
- 0.0282851  0.03385472 0.06974734 0.08807883 0.0472226  0.03068212
- 0.10543863 0.01352253 0.12531805 0.20888475 0.00150686 0.04992817
- 0.0073474  0.00105756 0.00322431 0.01187592 0.00832062 0.00652117
- 0.04636192 0.04588543 0.03999434 0.03136299 0.04808002 0.04746443
- 0.03991042 0.04847977 0.1289163  0.03853104 0.1311202  0.0611793
- 0.02130557 0.00511762 0.00734295 0.00786214 0.01131653 0.01057711
- 0.04200758 0.01216986 0.00915487 0.00402882 0.00254635 0.00845966
- 0.04035533 0.04357449 0.03792701 0.04665832 0.03687015 0.03464903
- 0.03715783 0.04964606 0.07342536 0.07789552 0.06165811 0.0524696
- 0.04711327 0.02206008 0.06922547 0.04865592 0.00569354 0.02745077
- 0.01424213 0.0083674  0.00300984 0.04753375 0.0051427  0.00847599
- 0.04149602 0.04820791 0.04212242 0.03991099 0.04298222 0.04735134
- 0.04610722 0.04936284 0.10346202 0.05626835 0.10549841 0.01559746
- 0.0275909  0.12846144 0.11851326 0.07285767 0.01211465 0.00355988
- 0.01104062 0.02877548 0.00053493 0.01302687 0.0072291  0.00166595
- 0.03920512 0.04635209 0.04211366 0.03378186 0.04594908 0.03331783
- 0.0336925  0.02715451 0.06109698 0.14955748 0.09267867 0.05702067
- 0.0064478  0.04715042 0.11120855 0.00524542 0.03383616 0.00845966
- 0.01302687 0.01045749 0.00515439 0.00524233 0.01172309 0.01187592
- 0.05820654 0.04548659 0.044199   0.03206733 0.04698785 0.02739938
- 0.03425722 0.0451424  0.10817022 0.05519513 0.17255182 0.11234131
- 0.0288139  0.04573553 0.0977183  0.04375288 0.00733078 0.0423556
- 0.02521757 0.02540473 0.0255934  0.01322648 0.00524233 0.01171911]"
-14,rank_test_score,"[137 137 135 139 147 147 144 140 124 125 126 121 166 186 165 160 181 196
- 222 218 198 183 238 197  68  70  72  75  79  78  83  77 111 118 113 119
- 248 174 172 184 187 189 177 253 204 210 221 252  65  66  67  71  73  69
-  74  80 116 102 108 112 156 141 240 153 150 226 214 152 211 244 256 209
-  33  18  51  40  48  13  57  32 106  92  97 110 130 129 131 128 207 169
- 254 224 243 182 188 247  37   4  19   9   1  49  27  44  81 104  86  93
- 205 228 185 192 225 249 170 231 212 193 217 227  26  34  11   8  35  22
-  61  56  76  89 101 117 136 175 123 122 177 145 215 234 245 232 235 220
-  43  31  10  50  58  47  36  41  84  88 115  94 168 190 201 216 246 250
- 167 229 251 230 180 261  16  38  23  45   3  24   2  42  91 103  96  87
- 149 179 146 151 223 163 255 263 199 157 264 203  14  46  20  15  17  39
-  59  29 100  90  99 114 161 133 127 143 237 200 241 158 205 257 208 202
-  30   5  21  54  28   7  63  64  82 120  95 107 191 162 132 242 155 261
- 257 239 219 194 236 232  60  12  25  52  53  55  62   6  98  85 109 105
- 159 154 134 142 259 171 176 173 164 213 194 260]"
-15,split0_train_score,"[8.73464818e-02 8.73464818e-02 8.73464818e-02 7.97312923e-02
- 7.12372675e-02 7.12372675e-02 7.12372675e-02 7.97312923e-02
- 4.65679871e-01 3.79427206e-01 1.59447269e-01 5.57868921e-01
- 2.26388398e-02 2.91723202e-02 8.69591638e-02 2.62703076e-02
- 2.91723202e-02 1.13636364e-02 9.20598389e-03 2.62703076e-02
- 9.20598389e-03 2.26388398e-02 2.26388398e-02 2.62703076e-02
- 8.44837852e-01 8.36982889e-01 8.33992218e-01 7.71900994e-01
- 7.59093610e-01 7.72493447e-01 7.75308250e-01 7.67244358e-01
- 5.16045633e-01 4.99884076e-01 5.64107259e-01 4.30163091e-01
- 4.72255018e-03 2.62703076e-02 1.81818182e-02 2.91723202e-02
- 2.62703076e-02 2.91723202e-02 2.91723202e-02 1.60192231e-03
- 9.20598389e-03 2.07587688e-02 1.61943320e-02 1.60192231e-03
- 8.52536610e-01 8.48741866e-01 7.77342807e-01 8.77519518e-01
- 7.72255172e-01 7.71828331e-01 7.68147798e-01 7.66680707e-01
- 5.62035425e-01 6.36698911e-01 6.05579652e-01 6.47069391e-01
- 1.22398890e-01 2.11815786e-01 1.61943320e-02 1.61943320e-02
- 1.46020831e-01 1.81818182e-02 1.61943320e-02 2.62703076e-02
- 1.61943320e-02 2.26388398e-02 1.61943320e-02 1.13636364e-02
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 1.00000000e+00 1.00000000e+00 9.06060606e-01 1.00000000e+00
- 4.36416051e-01 6.71584744e-01 7.22363995e-01 6.69372508e-01
- 2.26388398e-02 2.91723202e-02 2.91723202e-02 2.91723202e-02
- 2.26388398e-02 5.75863530e-02 4.72255018e-03 4.72255018e-03
- 4.72255018e-03 2.62703076e-02 2.91723202e-02 9.20598389e-03
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 8.22631962e-01 5.02181841e-01 8.17361504e-01 5.82795022e-01
- 2.07587688e-02 1.13636364e-02 5.84966988e-02 2.62703076e-02
- 2.07587688e-02 4.72255018e-03 9.00673401e-02 1.81818182e-02
- 2.07587688e-02 2.26388398e-02 2.07587688e-02 2.26388398e-02
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 8.37735889e-01 7.58168982e-01 5.99685868e-01 5.66059590e-01
- 1.60192231e-03 2.62703076e-02 1.56614969e-01 2.76223776e-01
- 2.91723202e-02 2.91723202e-02 1.61943320e-02 1.81818182e-02
- 1.13636364e-02 1.60192231e-03 2.91723202e-02 2.62703076e-02
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 1.00000000e+00 9.96536797e-01 1.00000000e+00 1.00000000e+00
- 8.30180812e-01 8.57407699e-01 7.80434266e-01 7.44355456e-01
- 1.61943320e-02 1.61943320e-02 2.62703076e-02 9.20598389e-03
- 1.61943320e-02 1.61943320e-02 1.81818182e-02 2.62703076e-02
- 8.04505229e-04 2.26388398e-02 2.91723202e-02 8.04505229e-04
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 7.01169887e-01 6.46628279e-01 7.76536471e-01 8.12967569e-01
- 1.56547602e-01 8.68574404e-02 1.72842531e-01 2.91723202e-02
- 1.61943320e-02 5.50594482e-02 8.04505229e-04 8.04505229e-04
- 1.81818182e-02 2.62703076e-02 1.13636364e-02 1.13636364e-02
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 1.00000000e+00 1.00000000e+00 9.92916175e-01 1.00000000e+00
- 8.65977434e-01 8.34498464e-01 7.55415657e-01 6.36036381e-01
- 2.07587688e-02 1.81818182e-02 3.50515476e-01 2.21255283e-01
- 2.07587688e-02 1.61943320e-02 5.51540108e-02 2.07587688e-02
- 2.07587688e-02 8.04505229e-04 1.81818182e-02 2.07587688e-02
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 9.96536797e-01 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 7.88333950e-01 6.48967313e-01 7.47080276e-01 6.61537950e-01
- 1.81818182e-02 1.46627250e-01 3.12637084e-01 2.07587688e-02
- 1.57565099e-01 8.04505229e-04 8.04505229e-04 2.62703076e-02
- 1.13636364e-02 1.61943320e-02 8.04505229e-04 8.04505229e-04
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 1.00000000e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00
- 7.53451945e-01 8.04382577e-01 8.22705942e-01 7.02556729e-01
- 2.07587688e-02 1.81818182e-02 2.53802583e-01 1.38509656e-01
- 9.20598389e-03 8.04505229e-04 7.31489654e-02 6.29866495e-02
- 6.61284352e-02 8.04505229e-04 1.61943320e-02 2.62703076e-02]"
-16,split1_train_score,"[9.06522049e-02 9.06522049e-02 1.03556574e-01 1.08157306e-01
- 8.58798065e-02 8.58798065e-02 9.32196459e-02 9.54026103e-02
- 1.39054943e-01 2.78185350e-01 1.38901515e-01 2.88917171e-01
- 8.57575758e-02 2.88493794e-02 2.65577120e-02 8.00482703e-02
- 2.88493794e-02 2.88493794e-02 1.66606302e-02 1.12233446e-02
- 2.88493794e-02 2.65577120e-02 9.80761977e-03 1.66606302e-02
- 8.36983695e-01 7.66140340e-01 7.51695849e-01 8.16567763e-01
- 6.99375250e-01 7.00882029e-01 6.78268810e-01 7.14576008e-01
- 6.71076827e-01 5.97759663e-01 5.87425288e-01 6.00398301e-01
- 2.88493794e-02 1.12233446e-02 6.22272200e-02 2.65577120e-02
- 2.05164485e-02 2.23776224e-02 2.88493794e-02 9.80761977e-03
- 2.55156608e-02 1.79662235e-02 1.66606302e-02 2.05164485e-02
- 8.73311359e-01 8.71923444e-01 8.77878258e-01 8.33889773e-01
- 7.40216534e-01 7.40697578e-01 8.61934155e-01 7.27631721e-01
- 5.49983649e-01 6.02088580e-01 5.80818013e-01 3.99818832e-01
- 2.65577120e-02 2.88493794e-02 2.05164485e-02 1.31099068e-01
- 2.65577120e-02 1.66606302e-02 1.66606302e-02 1.66606302e-02
- 2.23776224e-02 2.05164485e-02 4.66200466e-03 1.79662235e-02
- 9.88719382e-01 9.03130156e-01 8.96369655e-01 8.96384166e-01
- 8.93860528e-01 8.67092050e-01 8.92749863e-01 8.90827640e-01
- 6.75204844e-01 7.06267216e-01 6.67460164e-01 4.80902224e-01
- 4.02804954e-01 4.66200466e-03 9.80761977e-03 5.31680441e-02
- 1.79662235e-02 2.23776224e-02 1.79662235e-02 1.79662235e-02
- 1.66606302e-02 2.23776224e-02 1.66606302e-02 2.65577120e-02
- 9.92229055e-01 9.97420761e-01 9.03144667e-01 9.03144667e-01
- 8.67077540e-01 9.18094411e-01 9.64690039e-01 9.03513911e-01
- 7.34147227e-01 6.77638689e-01 7.12739388e-01 7.22928849e-01
- 2.05164485e-02 2.23776224e-02 9.80761977e-03 1.66606302e-02
- 7.93965859e-04 2.23776224e-02 9.80761977e-03 2.23776224e-02
- 9.80761977e-03 2.65577120e-02 2.65577120e-02 2.65577120e-02
- 8.90899656e-01 8.93860528e-01 9.44390458e-01 9.92243565e-01
- 8.97963321e-01 9.25992190e-01 9.44890414e-01 8.93846018e-01
- 7.47517123e-01 7.35662345e-01 7.45651684e-01 6.38667409e-01
- 1.79662235e-02 5.48001381e-02 4.78264495e-01 5.75338172e-01
- 2.88493794e-02 1.29604927e-01 1.12233446e-02 1.66606302e-02
- 1.79662235e-02 2.23776224e-02 1.12233446e-02 1.79662235e-02
- 8.93846018e-01 9.03144667e-01 9.03144667e-01 9.03144667e-01
- 8.82225454e-01 8.93860528e-01 9.19761493e-01 9.31705094e-01
- 6.64934124e-01 6.93119392e-01 4.38672027e-01 7.33519072e-01
- 1.17887337e-01 2.88493794e-02 2.65577120e-02 2.88493794e-02
- 7.93965859e-04 2.65577120e-02 7.93965859e-04 2.65577120e-02
- 1.79662235e-02 1.79662235e-02 2.65577120e-02 7.93965859e-04
- 9.63466857e-01 9.92229055e-01 9.44375948e-01 8.93860528e-01
- 8.69715133e-01 8.69517710e-01 8.99845003e-01 9.16099977e-01
- 6.63554200e-01 7.11303617e-01 7.18073935e-01 7.51541255e-01
- 2.05164485e-02 9.80761977e-03 1.79662235e-02 1.12233446e-02
- 2.65577120e-02 7.04022112e-02 7.93965859e-04 1.79662235e-02
- 2.05164485e-02 1.32430162e-01 7.93965859e-04 1.79662235e-02
- 9.03130156e-01 9.57986631e-01 8.99845003e-01 9.44375948e-01
- 9.03513911e-01 8.93860528e-01 8.57008396e-01 9.03144667e-01
- 5.14537489e-01 7.04882236e-01 6.16485259e-01 6.12088137e-01
- 2.88493794e-02 3.17901730e-01 2.88493794e-02 1.79662235e-02
- 2.88493794e-02 2.23776224e-02 7.93965859e-04 7.97716216e-02
- 2.05164485e-02 7.93965859e-04 1.12233446e-02 1.79662235e-02
- 9.03130156e-01 9.97420761e-01 8.97977831e-01 9.86123116e-01
- 9.03144667e-01 9.03144667e-01 8.54434400e-01 8.82696417e-01
- 7.09698189e-01 3.53545399e-01 6.56487782e-01 7.08264086e-01
- 1.79662235e-02 1.66606302e-02 2.05164485e-02 9.80761977e-03
- 1.79662235e-02 7.93965859e-04 7.93965859e-04 2.05164485e-02
- 2.23776224e-02 2.05164485e-02 2.05164485e-02 2.23776224e-02
- 8.74840913e-01 9.03144667e-01 8.99845003e-01 9.03130156e-01
- 8.73392298e-01 9.03130156e-01 8.90366073e-01 9.19195304e-01
- 6.15578298e-01 7.77740411e-01 4.27295374e-01 5.81994254e-01
- 2.88493794e-02 1.23973976e-01 2.23776224e-02 7.93002377e-02
- 7.93965859e-04 1.12233446e-02 7.93965859e-04 9.80761977e-03
- 8.69337840e-02 2.65577120e-02 2.05164485e-02 7.93965859e-04]"
-17,split2_train_score,"[0.09276169 0.09276169 0.09056888 0.0670683  0.0784457  0.0784457
- 0.0784457  0.0784457  0.28373603 0.16062744 0.29487361 0.2665254
- 0.02073972 0.0116831  0.0219554  0.02888087 0.02073972 0.0219554
- 0.02606952 0.01633523 0.0219554  0.02606952 0.01825202 0.02073972
- 0.74961354 0.7726229  0.81675021 0.82228389 0.75106282 0.83491133
- 0.73352016 0.74870719 0.68830455 0.64887809 0.53137501 0.50867048
- 0.0116831  0.04758583 0.02606952 0.01633523 0.02073972 0.01633523
- 0.02888087 0.02606952 0.02888087 0.01825202 0.02073972 0.01825202
- 0.83601749 0.92465688 0.89718761 0.81619063 0.76957084 0.89310178
- 0.89024273 0.9023911  0.70891329 0.67823859 0.69155847 0.59398606
- 0.02073972 0.02888087 0.0116831  0.02606952 0.0219554  0.01825202
- 0.0219554  0.09803641 0.01825202 0.00456447 0.00960828 0.02606952
- 0.99742076 0.95600837 0.95863441 0.95863441 0.95863441 0.95792278
- 0.94899678 0.96486947 0.71415594 0.67486789 0.67677997 0.73528091
- 0.02606952 0.33168078 0.28845561 0.32832789 0.01825202 0.02073972
- 0.0116831  0.02888087 0.02606952 0.04621735 0.0219554  0.00960828
- 0.95665091 0.97560258 0.94789823 0.99229408 0.92244523 0.95021183
- 0.98891766 0.97823263 0.86440068 0.82280772 0.83527419 0.68818378
- 0.01825202 0.01825202 0.00960828 0.0219554  0.02888087 0.01633523
- 0.02888087 0.0116831  0.02606952 0.01825202 0.00960828 0.00456447
- 0.96375073 0.97560258 0.95863441 0.96375073 0.95616555 0.9384276
- 0.84015468 0.91736725 0.83971151 0.83531996 0.63783376 0.52474864
- 0.30574697 0.01633523 0.29228892 0.10605224 0.02888087 0.02888087
- 0.02606952 0.01633523 0.01633523 0.02606952 0.00960828 0.00960828
- 0.99229408 0.86537383 0.99229408 0.92694477 0.96754683 0.94243861
- 0.96375073 0.94893591 0.83914055 0.69940737 0.48377157 0.79791776
- 0.02606952 0.02073972 0.00960828 0.01633523 0.02606952 0.00154739
- 0.07854625 0.00154739 0.02073972 0.0116831  0.02888087 0.01825202
- 0.99229408 0.95665091 0.96375073 0.98428641 0.97017287 0.97732171
- 0.89556177 0.98699847 0.76202749 0.72526251 0.7167042  0.6442555
- 0.02888087 0.01825202 0.0116831  0.10022091 0.0116831  0.00154739
- 0.02888087 0.00154739 0.0219554  0.00154739 0.00154739 0.02888087
- 0.98966804 0.96375073 0.99479472 0.97450924 0.98733324 0.92153244
- 0.99229408 0.99229408 0.63385249 0.74852194 0.67184491 0.57014011
- 0.08479983 0.00456447 0.12977695 0.01633523 0.00447138 0.0219554
- 0.01825202 0.02888087 0.01825202 0.02606952 0.02606952 0.02073972
- 0.96112469 0.98566313 0.98691245 0.95751774 0.95691593 0.92774863
- 0.95021183 0.91143225 0.8703929  0.58780171 0.7544401  0.52677421
- 0.02888087 0.00154739 0.02606952 0.01825202 0.02888087 0.01825202
- 0.02606952 0.00154739 0.02073972 0.02606952 0.02606952 0.02606952
- 0.9411832  0.99479472 0.93317834 0.90910569 0.96754683 0.94416913
- 0.91736725 0.95863441 0.77383547 0.80162231 0.79076181 0.76034502
- 0.07275479 0.01633523 0.02073972 0.01633523 0.01825202 0.08871322
- 0.02606952 0.0219554  0.0116831  0.02888087 0.02606952 0.00154739]"
-18,mean_train_score,"[0.09025346 0.09025346 0.09382398 0.08498563 0.07852092 0.07852092
- 0.08096754 0.08452653 0.29615695 0.27274667 0.1977408  0.37110383
- 0.04304538 0.02323493 0.04515743 0.04506648 0.02625381 0.02072281
- 0.01731204 0.01794296 0.02000359 0.02508869 0.01689949 0.02122355
- 0.81047836 0.79191537 0.80081276 0.80358422 0.73651056 0.76942893
- 0.72903241 0.74350919 0.62514234 0.58217394 0.56096919 0.51307729
- 0.01508501 0.02835983 0.03549285 0.02402175 0.02250882 0.02262839
- 0.02896752 0.01249302 0.02120084 0.01899234 0.01786489 0.0134568
- 0.85395515 0.88177406 0.85080289 0.84253331 0.76068085 0.8018759
- 0.84010823 0.79890118 0.60697745 0.63900869 0.62598538 0.54695809
- 0.05656544 0.08984868 0.01613129 0.05778764 0.06484465 0.01769816
- 0.01827012 0.04698912 0.01894132 0.01590659 0.01015487 0.01846646
- 0.99538005 0.95304618 0.95166802 0.95167286 0.95083165 0.94167161
- 0.91593575 0.95189904 0.60859228 0.68423995 0.68886804 0.62851855
- 0.15050444 0.12183837 0.10914518 0.13688942 0.01961903 0.0335679
- 0.01145729 0.01718988 0.01581757 0.03162176 0.02259612 0.01512399
- 0.98295999 0.99100778 0.95034763 0.96514625 0.92984092 0.95610208
- 0.9845359  0.96058218 0.80705995 0.66754275 0.78845836 0.66463588
- 0.01984241 0.01733109 0.02597087 0.02162878 0.0168112  0.01447847
- 0.04291861 0.01741418 0.01887864 0.02248286 0.01897492 0.01792034
- 0.95155013 0.9564877  0.96767496 0.98533143 0.95137629 0.9548066
- 0.92834836 0.93707109 0.80832151 0.77638376 0.6610571  0.57649188
- 0.10843837 0.03246856 0.30905613 0.31920473 0.02896752 0.0625527
- 0.01782907 0.01705923 0.0152217  0.01668302 0.01666798 0.01794827
- 0.9620467  0.9228395  0.96514625 0.94336315 0.9499241  0.94427864
- 0.96117074 0.96021367 0.77808516 0.74997815 0.56762595 0.75859743
- 0.05338373 0.02192781 0.0208121  0.0181302  0.01435261 0.01476648
- 0.03250734 0.01812514 0.01317015 0.01742939 0.02820363 0.00661683
- 0.98525365 0.98295999 0.96937556 0.95938231 0.94662934 0.94894647
- 0.93180226 0.96769948 0.70891719 0.69439814 0.73710487 0.73625478
- 0.06864831 0.03830569 0.06749728 0.04687219 0.01814505 0.04233635
- 0.01015978 0.00677271 0.02021789 0.05341595 0.00456833 0.01940358
- 0.96426607 0.97391245 0.96487991 0.97296173 0.96361572 0.93846432
- 0.94740622 0.96514625 0.6714558  0.76263422 0.68124861 0.60608821
- 0.04480266 0.11354934 0.16971393 0.08518558 0.01802651 0.02017579
- 0.02473333 0.04313709 0.01984241 0.00922266 0.01849156 0.01982157
- 0.95475161 0.9943613  0.96163009 0.98121362 0.95219913 0.9436311
- 0.93488208 0.93137622 0.78947501 0.53010481 0.71933605 0.63219208
- 0.0216763  0.05494509 0.11974102 0.0162728  0.0681374  0.00661683
- 0.00922266 0.01611138 0.01816033 0.02092677 0.01579682 0.01641722
- 0.9386747  0.9659798  0.94434111 0.93741195 0.94697971 0.94909976
- 0.93591111 0.95927657 0.71428857 0.79458176 0.68025437 0.681632
- 0.04078765 0.05283034 0.09897331 0.07804837 0.00941732 0.03358036
- 0.03333748 0.03158322 0.05491511 0.01874769 0.02092677 0.00953722]"
-19,std_train_score,"[2.22865583e-03 2.22865583e-03 7.00659318e-03 1.71810495e-02
- 5.97802819e-03 5.97802819e-03 9.14971771e-03 7.70843648e-03
- 1.33633006e-01 8.94073780e-02 6.91935437e-02 1.32378868e-01
- 3.02120350e-02 8.16944537e-03 2.96179479e-02 2.47588088e-02
- 3.90127795e-03 7.19153547e-03 6.89990130e-03 6.24720617e-03
- 8.13727764e-03 1.74373322e-03 5.32491289e-03 3.93802381e-03
- 4.31572071e-02 3.19772469e-02 3.54370314e-02 2.25246302e-02
- 2.64625129e-02 5.47601224e-02 3.97430766e-02 2.18136535e-02
- 7.74629659e-02 6.18168810e-02 2.29897645e-02 6.95680559e-02
- 1.01392218e-02 1.49182709e-02 1.91763529e-02 5.53901641e-03
- 2.66133177e-03 5.24372019e-03 1.45383598e-04 1.01677382e-02
- 8.59218749e-03 1.25449353e-03 2.04170137e-03 8.43348249e-03
- 1.52581648e-02 3.17652670e-02 5.25388781e-02 2.57726086e-02
- 1.45118932e-02 6.57464938e-02 5.21796351e-02 7.48947217e-02
- 7.22472486e-02 3.11309860e-02 4.74563472e-02 1.06276156e-01
- 4.66118344e-02 8.62437708e-02 3.60647655e-03 5.19955381e-02
- 5.74309717e-02 7.34200761e-04 2.61283146e-03 3.63084597e-02
- 2.57094367e-03 8.06675475e-03 4.72389083e-03 6.01406247e-03
- 4.82607292e-03 3.96023788e-02 4.25927226e-02 4.25864430e-02
- 4.36811112e-02 5.54629372e-02 2.40009424e-02 4.55032980e-02
- 1.22781070e-01 1.56331934e-02 2.39888695e-02 1.07792744e-01
- 1.78408904e-01 1.48718005e-01 1.27037841e-01 1.35721443e-01
- 2.13851517e-03 1.69967712e-02 5.40906413e-03 9.87785715e-03
- 8.73522882e-03 1.04422751e-02 5.12792897e-03 8.08652941e-03
- 1.88718922e-02 1.09438957e-02 3.95789385e-02 4.39544656e-02
- 5.45167700e-02 3.36962180e-02 1.47444504e-02 4.13202543e-02
- 5.43038108e-02 1.31089499e-01 5.40384948e-02 5.95832745e-02
- 1.12892091e-03 4.54335048e-03 2.29993813e-02 3.92992679e-03
- 1.18012985e-02 7.32625706e-03 3.42364263e-02 4.39963454e-03
- 6.77069738e-03 3.39257867e-03 7.03360587e-03 9.57858049e-03
- 4.53678465e-02 4.53903863e-02 2.35853611e-02 1.55849424e-02
- 4.17937296e-02 3.23573030e-02 6.62966131e-02 4.55217739e-02
- 4.30027576e-02 4.26750797e-02 6.18115293e-02 4.70885414e-02
- 1.39678107e-01 1.63033958e-02 1.31847030e-01 1.93980829e-01
- 1.45383598e-04 4.74132304e-02 6.17016942e-03 8.04832482e-04
- 2.80814335e-03 1.07699329e-02 8.86645313e-03 6.80225700e-03
- 4.83276674e-02 5.66978327e-02 4.39544656e-02 4.12101213e-02
- 4.96697866e-02 4.19375991e-02 3.28079944e-02 2.89993032e-02
- 8.00934349e-02 7.60075211e-02 1.51600408e-01 2.81534278e-02
- 4.57887643e-02 5.23426083e-03 7.92316681e-03 8.11920290e-03
- 1.04005564e-02 1.02602190e-02 3.33193635e-02 1.17228248e-02
- 8.81683672e-03 4.48874338e-03 1.16990828e-03 8.22732179e-03
- 1.57235166e-02 1.88718922e-02 2.30541080e-02 4.67729087e-02
- 5.57330556e-02 5.69225946e-02 4.82547801e-02 3.68704189e-02
- 4.05730861e-02 3.42557257e-02 2.78879591e-02 6.97194261e-02
- 6.22479216e-02 3.45039236e-02 7.45344899e-02 3.84283386e-02
- 6.22722600e-03 2.95144549e-02 1.32378084e-02 7.92082055e-03
- 1.55495738e-03 5.67758142e-02 4.81484161e-03 7.22324132e-03
- 4.34349092e-02 1.85961698e-02 4.60356953e-02 2.27347736e-02
- 4.28118521e-02 4.49548907e-02 6.39214179e-02 4.39544656e-02
- 1.45917821e-01 5.38482977e-02 5.71065435e-02 2.72345253e-02
- 2.84744899e-02 1.44605860e-01 1.34321732e-01 9.62181153e-02
- 1.01380699e-02 2.82058484e-03 2.26606736e-02 2.61158833e-02
- 1.12892091e-03 1.19125265e-02 6.06488126e-03 1.31195088e-03
- 3.98028785e-02 6.24001404e-03 4.53249670e-02 1.76873403e-02
- 3.82727809e-02 4.11049754e-02 6.04074332e-02 4.99223009e-02
- 6.56083020e-02 1.27319091e-01 4.45418952e-02 7.69438251e-02
- 5.09515614e-03 6.51220210e-02 1.36416956e-01 4.68471900e-03
- 6.33917338e-02 8.22732179e-03 1.19125265e-02 1.05628008e-02
- 4.85227900e-03 4.04195488e-03 1.08408600e-02 1.11422638e-02
- 5.11267618e-02 4.44819352e-02 4.16430188e-02 4.43236201e-02
- 5.36943974e-02 3.97003357e-02 4.66390781e-02 3.29915041e-02
- 7.02930075e-02 1.19618332e-02 1.79343802e-01 7.42995379e-02
- 2.28442280e-02 5.03117952e-02 1.09482873e-01 4.98853561e-02
- 7.12878654e-03 3.92161742e-02 2.99825390e-02 2.27526336e-02
- 3.17277018e-02 1.27231493e-02 4.04195488e-03 1.18360765e-02]"
+0,mean_fit_time,"[0.12649282 0.12422665 0.12346037 0.12321393 0.12488588 0.12594914
+ 0.12444035 0.12375363 0.12323443 0.12364117 0.12435158 0.12731981
+ 0.12644911 0.12569674 0.12399626 0.12527021 0.1269993  0.12625806
+ 0.12368671 0.12353659 0.12526608 0.12367702 0.12275457 0.12543233
+ 0.12654734 0.12464245 0.12489208 0.12329141 0.12645682 0.12887088
+ 0.12617445 0.12657253 0.12517365 0.12503449 0.12490122 0.12415806
+ 0.12350837 0.12340347 0.12862206 0.12492061 0.12874309 0.12383533
+ 0.12775993 0.12588334 0.12381625 0.1252377  0.12411666 0.12396089
+ 0.12397003]"
+1,std_fit_time,"[1.96151939e-03 1.15158542e-03 9.73542856e-05 5.32848592e-04
+ 1.69869689e-03 4.58151068e-03 2.18871888e-03 9.06388345e-04
+ 4.18390952e-04 1.25095264e-03 9.45394742e-04 3.38933430e-03
+ 2.43885646e-03 2.63617014e-03 4.79651056e-04 9.51344074e-04
+ 2.27778172e-03 2.12832569e-03 1.55901850e-03 1.63514672e-03
+ 2.79924179e-03 1.17063532e-03 1.40616575e-04 4.04338841e-03
+ 3.47652422e-03 2.24713963e-03 1.48584052e-03 3.87763239e-04
+ 2.93215974e-03 4.50277834e-03 2.69498968e-03 1.79427514e-03
+ 1.19816414e-03 1.88933750e-03 1.33357061e-03 5.62534287e-04
+ 8.11488338e-04 3.46449697e-04 4.34883117e-03 1.50079681e-03
+ 6.52192316e-03 4.90104441e-04 2.70737545e-03 3.31321776e-03
+ 6.80233986e-04 1.71916839e-03 4.62051557e-04 5.13296886e-04
+ 1.09709051e-03]"
+2,mean_score_time,"[0.01213892 0.01038361 0.01198077 0.00865904 0.01137344 0.01049662
+ 0.01161997 0.0099442  0.01293246 0.01328945 0.0127666  0.01072534
+ 0.01079909 0.01591539 0.0116508  0.01169093 0.00985901 0.01540176
+ 0.01184789 0.01308823 0.01416421 0.0132428  0.01303116 0.01246826
+ 0.01354146 0.01558201 0.01225734 0.00997957 0.01409372 0.0088582
+ 0.01025279 0.00945059 0.01055606 0.01067344 0.01101518 0.00898274
+ 0.01094111 0.01326823 0.01009218 0.00851226 0.01085011 0.00902136
+ 0.00947857 0.01049932 0.0106496  0.00949446 0.0135026  0.01139426
+ 0.01079432]"
+3,std_score_time,"[0.00369189 0.00163564 0.00274272 0.00030199 0.00253904 0.00251549
+ 0.00182372 0.00140282 0.00293139 0.00142211 0.00357699 0.00247239
+ 0.00234118 0.00249809 0.00160261 0.00231504 0.00123658 0.00233439
+ 0.00391702 0.00617478 0.00181974 0.00103914 0.00356349 0.0040962
+ 0.00310815 0.00343423 0.00199532 0.00073999 0.00208395 0.00039343
+ 0.00159791 0.00057858 0.00274164 0.0019834  0.00132134 0.00077308
+ 0.00205637 0.00219808 0.00088768 0.00017273 0.00142386 0.00113238
+ 0.00049395 0.00139929 0.00139138 0.00098744 0.00306499 0.00102167
+ 0.00214754]"
+4,param_clf_PA__C,"[10.0 10.0 10.0 10.0 10.0 10.0 10.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0
+ 100.0 100.0 100.0 100.0 100.0 100.0 100.0 200.0 200.0 200.0 200.0 200.0
+ 200.0 200.0 300.0 300.0 300.0 300.0 300.0 300.0 300.0 500.0 500.0 500.0
+ 500.0 500.0 500.0 500.0 1000.0 1000.0 1000.0 1000.0 1000.0 1000.0 1000.0]"
+5,param_gauss__gamma,"[10.0 1.0 0.1 0.01 0.001 0.0001 1e-05 10.0 1.0 0.1 0.01 0.001 0.0001 1e-05
+ 10.0 1.0 0.1 0.01 0.001 0.0001 1e-05 10.0 1.0 0.1 0.01 0.001 0.0001 1e-05
+ 10.0 1.0 0.1 0.01 0.001 0.0001 1e-05 10.0 1.0 0.1 0.01 0.001 0.0001 1e-05
+ 10.0 1.0 0.1 0.01 0.001 0.0001 1e-05]"
+6,params,"[{'clf_PA__C': 10.0, 'gauss__gamma': 10.0}, {'clf_PA__C': 10.0, 'gauss__gamma': 1.0}, {'clf_PA__C': 10.0, 'gauss__gamma': 0.1}, {'clf_PA__C': 10.0, 'gauss__gamma': 0.01}, {'clf_PA__C': 10.0, 'gauss__gamma': 0.001}, {'clf_PA__C': 10.0, 'gauss__gamma': 0.0001}, {'clf_PA__C': 10.0, 'gauss__gamma': 1e-05}, {'clf_PA__C': 50.0, 'gauss__gamma': 10.0}, {'clf_PA__C': 50.0, 'gauss__gamma': 1.0}, {'clf_PA__C': 50.0, 'gauss__gamma': 0.1}, {'clf_PA__C': 50.0, 'gauss__gamma': 0.01}, {'clf_PA__C': 50.0, 'gauss__gamma': 0.001}, {'clf_PA__C': 50.0, 'gauss__gamma': 0.0001}, {'clf_PA__C': 50.0, 'gauss__gamma': 1e-05}, {'clf_PA__C': 100.0, 'gauss__gamma': 10.0}, {'clf_PA__C': 100.0, 'gauss__gamma': 1.0}, {'clf_PA__C': 100.0, 'gauss__gamma': 0.1}, {'clf_PA__C': 100.0, 'gauss__gamma': 0.01}, {'clf_PA__C': 100.0, 'gauss__gamma': 0.001}, {'clf_PA__C': 100.0, 'gauss__gamma': 0.0001}, {'clf_PA__C': 100.0, 'gauss__gamma': 1e-05}, {'clf_PA__C': 200.0, 'gauss__gamma': 10.0}, {'clf_PA__C': 200.0, 'gauss__gamma': 1.0}, {'clf_PA__C': 200.0, 'gauss__gamma': 0.1}, {'clf_PA__C': 200.0, 'gauss__gamma': 0.01}, {'clf_PA__C': 200.0, 'gauss__gamma': 0.001}, {'clf_PA__C': 200.0, 'gauss__gamma': 0.0001}, {'clf_PA__C': 200.0, 'gauss__gamma': 1e-05}, {'clf_PA__C': 300.0, 'gauss__gamma': 10.0}, {'clf_PA__C': 300.0, 'gauss__gamma': 1.0}, {'clf_PA__C': 300.0, 'gauss__gamma': 0.1}, {'clf_PA__C': 300.0, 'gauss__gamma': 0.01}, {'clf_PA__C': 300.0, 'gauss__gamma': 0.001}, {'clf_PA__C': 300.0, 'gauss__gamma': 0.0001}, {'clf_PA__C': 300.0, 'gauss__gamma': 1e-05}, {'clf_PA__C': 500.0, 'gauss__gamma': 10.0}, {'clf_PA__C': 500.0, 'gauss__gamma': 1.0}, {'clf_PA__C': 500.0, 'gauss__gamma': 0.1}, {'clf_PA__C': 500.0, 'gauss__gamma': 0.01}, {'clf_PA__C': 500.0, 'gauss__gamma': 0.001}, {'clf_PA__C': 500.0, 'gauss__gamma': 0.0001}, {'clf_PA__C': 500.0, 'gauss__gamma': 1e-05}, {'clf_PA__C': 1000.0, 'gauss__gamma': 10.0}, {'clf_PA__C': 1000.0, 'gauss__gamma': 1.0}, {'clf_PA__C': 1000.0, 'gauss__gamma': 0.1}, {'clf_PA__C': 1000.0, 'gauss__gamma': 0.01}, {'clf_PA__C': 1000.0, 'gauss__gamma': 0.001}, {'clf_PA__C': 1000.0, 'gauss__gamma': 0.0001}, {'clf_PA__C': 1000.0, 'gauss__gamma': 1e-05}]"
+7,split0_test_score,"[0.73785155 0.75376107 0.52087657 0.21942117 0.11875719 0.02635046
+ 0.00450789 0.74168914 0.75347618 0.55570087 0.31631225 0.01678322
+ 0.00152788 0.01804303 0.74122873 0.7352468  0.57192324 0.46113455
+ 0.21604228 0.07489994 0.01154401 0.74039916 0.74630544 0.67628917
+ 0.02857143 0.01154401 0.05473655 0.02050581 0.75206156 0.73925733
+ 0.19050795 0.2500539  0.01804303 0.00152788 0.00152788 0.74131529
+ 0.75601772 0.57708197 0.45814222 0.13708514 0.02857143 0.00152788
+ 0.721306   0.74823382 0.59242352 0.27368265 0.11456934 0.02857143
+ 0.02857143]"
+8,split1_test_score,"[0.79467462 0.70572391 0.48902506 0.35954833 0.2085068  0.01587302
+ 0.02097902 0.80195671 0.78888208 0.58068309 0.43333603 0.02919708
+ 0.0222068  0.02578019 0.79603561 0.77283797 0.6330144  0.41398926
+ 0.0222068  0.02097902 0.0222068  0.7924096  0.8089252  0.66626517
+ 0.42996938 0.25025755 0.0015674  0.0222068  0.7960455  0.79487608
+ 0.68677594 0.19513478 0.01587302 0.02919708 0.01846591 0.78572703
+ 0.8036672  0.55625889 0.41567268 0.01587302 0.0015674  0.0222068
+ 0.7959115  0.8017612  0.53098501 0.46183271 0.00901578 0.13226381
+ 0.0015674 ]"
+9,split2_test_score,"[0.85594447 0.86518312 0.70311156 0.47960317 0.15692641 0.02945736
+ 0.01967213 0.85862563 0.83393028 0.75052021 0.40676641 0.04571429
+ 0.00530973 0.01967213 0.8533226  0.78780048 0.69470221 0.39925271
+ 0.01967213 0.086      0.03206107 0.85314144 0.78546947 0.70240547
+ 0.39511929 0.01818182 0.01818182 0.0018018  0.85988831 0.85106162
+ 0.68869162 0.47554062 0.05233898 0.0018018  0.01967213 0.85744025
+ 0.78491153 0.66471379 0.40783272 0.0018018  0.02539683 0.01967213
+ 0.85749904 0.77899541 0.25120375 0.30304164 0.06752688 0.0018018
+ 0.0018018 ]"
+10,mean_test_score,"[0.79615688 0.77488937 0.5710044  0.35285756 0.1613968  0.02389361
+ 0.01505301 0.80075716 0.79209618 0.62896805 0.38547157 0.03056486
+ 0.00968147 0.02116512 0.79686231 0.76529508 0.63321329 0.42479218
+ 0.08597374 0.06062632 0.02193729 0.79531673 0.78023337 0.68165327
+ 0.28455337 0.09332779 0.02482859 0.01483814 0.80266512 0.79506501
+ 0.52199184 0.30690976 0.02875167 0.01084226 0.01322197 0.79482753
+ 0.78153215 0.59935155 0.42721587 0.05158665 0.01851188 0.01446894
+ 0.79157218 0.77633014 0.45820409 0.34618567 0.063704   0.05421235
+ 0.01064688]"
+11,std_test_score,"[0.04822262 0.06679129 0.09431456 0.10632417 0.03677623 0.00581152
+ 0.00747559 0.04774666 0.03292378 0.08655335 0.05009154 0.01185059
+ 0.00899031 0.00333043 0.04576587 0.02210797 0.0501245  0.02639277
+ 0.09197817 0.02839876 0.00837822 0.04607273 0.02583113 0.01523396
+ 0.18156486 0.11099918 0.02220922 0.0092442  0.04426825 0.0456441
+ 0.23439581 0.12132958 0.01670226 0.0129793  0.00828362 0.04784256
+ 0.01959904 0.04699338 0.02210121 0.06072887 0.01205145 0.00920903
+ 0.05568517 0.02193358 0.14850484 0.08264852 0.04317676 0.05626234
+ 0.01267493]"
+12,rank_test_score,"[ 4 13 19 25 29 39 43  2  8 17 24 36 49 41  3 14 16 23 31 33 40  5 11 15
+ 28 30 38 44  1  6 20 27 37 47 46  7 10 18 22 35 42 45  9 12 21 26 32 34
+ 48]"
+13,split0_train_score,"[1.00000000e+00 9.96536797e-01 7.15742728e-01 2.35596709e-01
+ 1.27066436e-01 2.62703076e-02 4.72255018e-03 1.00000000e+00
+ 9.95472552e-01 7.37823598e-01 4.19139558e-01 1.61943320e-02
+ 8.04505229e-04 1.81818182e-02 1.00000000e+00 9.96536797e-01
+ 7.06400248e-01 5.90582989e-01 2.42692006e-01 8.36523126e-02
+ 1.13636364e-02 1.00000000e+00 9.89718615e-01 7.60165468e-01
+ 2.91723202e-02 1.13636364e-02 6.42665976e-02 2.07587688e-02
+ 1.00000000e+00 9.93159369e-01 2.43420565e-01 3.05711692e-01
+ 1.81818182e-02 8.04505229e-04 8.04505229e-04 1.00000000e+00
+ 1.00000000e+00 7.71349360e-01 5.94179603e-01 1.44191919e-01
+ 2.91723202e-02 8.04505229e-04 1.00000000e+00 9.89793540e-01
+ 7.32564411e-01 3.75331524e-01 1.53389220e-01 2.91723202e-02
+ 2.91723202e-02]"
+14,split1_train_score,"[9.97406251e-01 8.60670954e-01 6.24700253e-01 4.29091420e-01
+ 2.32691138e-01 1.66606302e-02 2.05164485e-02 9.97406251e-01
+ 8.91028399e-01 7.25573851e-01 4.61684091e-01 2.88493794e-02
+ 2.23776224e-02 2.65577120e-02 9.97420761e-01 8.89218461e-01
+ 7.52782698e-01 4.23347959e-01 5.16085222e-02 2.05164485e-02
+ 2.23776224e-02 9.97420761e-01 8.93016815e-01 7.48181769e-01
+ 4.80064187e-01 3.01912644e-01 7.93965859e-04 2.23776224e-02
+ 9.97406251e-01 8.94641452e-01 7.96545631e-01 2.45572670e-01
+ 1.66606302e-02 2.88493794e-02 1.79662235e-02 9.97420761e-01
+ 8.75412702e-01 6.69186540e-01 4.38455876e-01 1.66606302e-02
+ 7.93965859e-04 2.23776224e-02 9.97420761e-01 8.98473731e-01
+ 5.85951699e-01 5.19384993e-01 9.80761977e-03 1.35830412e-01
+ 7.93965859e-04]"
+15,split2_train_score,"[0.99742076 0.96375073 0.79810253 0.42529131 0.13312387 0.02606952
+ 0.01825202 0.99479472 0.9261986  0.8626118  0.39759172 0.04336043
+ 0.00456447 0.01825202 0.99479472 0.91527753 0.74589864 0.4085136
+ 0.01825202 0.08304686 0.02888087 0.99032095 0.9384276  0.7410181
+ 0.37223417 0.01633523 0.01633523 0.00154739 0.99479472 0.96375073
+ 0.84001674 0.512768   0.0567112  0.00154739 0.01825202 0.99479472
+ 0.98160905 0.75424253 0.41897797 0.00154739 0.0219554  0.01825202
+ 0.99479472 0.96486947 0.22270878 0.31933086 0.05862709 0.00154739
+ 0.00154739]"
+16,mean_train_score,"[0.99827567 0.94031949 0.7128485  0.36332648 0.16429381 0.02300015
+ 0.01449701 0.99740032 0.93756652 0.77533642 0.42613846 0.02946805
+ 0.00924887 0.02099718 0.99740516 0.9336776  0.7350272  0.47414818
+ 0.10418418 0.06240521 0.02087404 0.9959139  0.94038768 0.74978845
+ 0.29382356 0.1098705  0.02713193 0.01489459 0.99740032 0.95051718
+ 0.62666098 0.35468412 0.03051788 0.01040042 0.01234092 0.99740516
+ 0.95234058 0.73159281 0.48387115 0.05413331 0.01730723 0.01381138
+ 0.99740516 0.95104558 0.51374163 0.40468246 0.07394131 0.05551671
+ 0.01050456]"
+17,std_train_score,"[0.0012193  0.05788868 0.07082076 0.09033191 0.04842739 0.00448347
+ 0.00697313 0.00212505 0.04339022 0.06191531 0.02662951 0.01109914
+ 0.00940948 0.00393199 0.00212507 0.0457036  0.02043647 0.08255427
+ 0.09888201 0.02962086 0.00722998 0.00409259 0.03950267 0.00789901
+ 0.1922447  0.13580947 0.02701383 0.00946101 0.00212505 0.04129399
+ 0.27157239 0.11444667 0.01853188 0.01304891 0.00815831 0.00212507
+ 0.05491194 0.04467712 0.07840414 0.06397925 0.01204262 0.0093502
+ 0.00212507 0.03854134 0.21431894 0.08426752 0.0596088  0.05789935
+ 0.01320368]"
