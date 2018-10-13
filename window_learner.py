@@ -241,9 +241,8 @@ else:
 print("F1_macro: %f\n" % clf[2] if grid else gs_clf)
 if stdout:
     print(classification_report(y_test, predicted))
+
 else:
-    #pd.DataFrame(list(classification_report(y_test, predicted, 
-    #                            output_dict=True).items())).to_csv(results)
     import csv
     d = classification_report(y_test, predicted, output_dict=True)
     headers = ['Class/measure'] + [list(d[header].keys()) for header in d][0]
