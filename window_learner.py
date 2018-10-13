@@ -246,8 +246,8 @@ else:
     #                            output_dict=True).items())).to_csv(results)
     import csv
     d = classification_report(y_test, predicted, output_dict=True)
-    headers = ['class'] + [list(d[header].keys()) for header in d][0]
+    headers = ['Class/measure'] + [list(d[header].keys()) for header in d][0]
     R = [headers] + [[D] + list(d[D].values()) for h in headers for D in d]
     with open(results, "w") as fo:
         writer = csv.writer(fo)
-        writer.writerows(R)
+        writer.writerows(R[0:15])
