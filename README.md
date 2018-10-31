@@ -3,7 +3,7 @@ Experimental conditions are pieces of information that express details on how sp
 
 Sometimes research cannot be reproduced correctly due to the lack of details about the conditions leading the results reported. 
 In this work we propose a method for experimental conditions identification we called the Sliding Classifier. 
-This method bases on the ideas of Harris on cooccurrence and structure of language. In the context of experimental conditions 
+This method bases on the ideas of Harris on cooccurrence and structure of language [1]. In the context of experimental conditions 
 mentioned in a text, these ideas state that the different instances of a given experimental condition have similar contexts 
 independently of the specificity of a sentence mentioning it. This mainly due to the patterns in the use of language structure.
 
@@ -21,3 +21,5 @@ to this problem, the performance of our approach was assessed by using evaluatio
 measures were taken by each class, which provides a multiview standpoint of how well actually the classes were detected by the 
 classifier in test data while avoiding class imbalace biases. See this [table](https://github.com/iarroyof/expconditions/blob/master/results.csv) summarizing the results for each experimental 
 condition (the [labels](https://github.com/iarroyof/expconditions/blob/master/esquema-gcs.xsd)).
+
+[1]: Harris, Z. S. (1957). Co-occurrence and transformation in linguistic structure. Language, 33(3), 283-340.
