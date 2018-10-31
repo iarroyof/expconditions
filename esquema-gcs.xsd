@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="gse">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="Name" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Anti" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Orgn" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Strain" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Substrain" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Gtype" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Gversion" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Med" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Technique" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Supp" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Air" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Temp" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="pH" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Press" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="OD" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Phase" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Rate" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Vess" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Agit" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="Name">
+    </xs:element>
+    
+    <xs:element name="Anti">
+    </xs:element>
+    
+    <xs:element name="Orgn">
+    </xs:element>
+    
+    <xs:element name="Strain">
+    </xs:element>
+
+    <xs:element name="Substrain">
+    </xs:element>
+    
+    <xs:element name="Gtype">
+    </xs:element>
+
+    <xs:element name="Gversion">
+    </xs:element>
+
+    <xs:element name="Med">
+    </xs:element>
+
+    <xs:element name="Technique">
+    </xs:element>
+
+    <xs:element name="Supp">
+    </xs:element>
+
+    <xs:element name="Air">
+    </xs:element>
+
+    <xs:element name="Temp">
+    </xs:element>
+
+    <xs:element name="pH">
+    </xs:element>
+
+    <xs:element name="Press">
+    </xs:element>
+    
+    <xs:element name="OD">
+    </xs:element>
+
+    <xs:element name="Phase">
+    </xs:element>
+
+    <xs:element name="Rate">
+    </xs:element>
+    
+    <xs:element name="Vess">
+    </xs:element>
+
+    <xs:element name="Agit">
+    </xs:element>
+
+</xs:schema>
